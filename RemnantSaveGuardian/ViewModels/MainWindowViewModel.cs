@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 using System;
 using System.Collections.ObjectModel;
@@ -34,7 +34,7 @@ namespace RemnantSaveGuardian.ViewModels
 
         private void InitializeViewModel()
         {
-            ApplicationTitle = "Remnant Save Guardian";
+            ApplicationTitle = "Remnant Save Guardian RU";
 
             NavigationItems = new ObservableCollection<INavigationControl>
             {

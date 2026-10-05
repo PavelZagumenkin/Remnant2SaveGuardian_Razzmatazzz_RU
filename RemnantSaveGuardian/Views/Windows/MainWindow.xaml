@@ -1,4 +1,4 @@
-﻿<ui:UiWindow
+<ui:UiWindow
     x:Class="RemnantSaveGuardian.Views.Windows.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -21,7 +21,7 @@
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d"
     xmlns:lex="http://wpflocalizeextension.codeplex.com"
-    lex:LocalizeDictionary.DesignCulture="en"
+    lex:LocalizeDictionary.DesignCulture="ru"
     lex:ResxLocalizationProvider.DefaultAssembly="RemnantSaveGuardian"
     lex:ResxLocalizationProvider.DefaultDictionary="Strings">
     <Grid>
@@ -50,7 +50,7 @@
                     FocusOnLeftClick="True"
                     Icon="pack://application:,,,/Assets/applicationIcon-256.png"
                     MenuOnRightClick="True"
-                    TooltipText="RemnantSaveGuardian">
+                    TooltipText="Remnant Save Guardian RU">
                     <ui:NotifyIcon.Menu>
                         <ContextMenu ItemsSource="{Binding ViewModel.TrayMenuItems, Mode=OneWay}" />
                     </ui:NotifyIcon.Menu>

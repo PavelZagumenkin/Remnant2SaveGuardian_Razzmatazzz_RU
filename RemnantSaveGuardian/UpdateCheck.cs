@@ -1,4 +1,4 @@
-﻿using AutoUpdaterDotNET;
+using AutoUpdaterDotNET;
 using System;
 using System.Windows.Documents;
 using System.Diagnostics;
@@ -11,7 +11,7 @@ namespace RemnantSaveGuardian
 {
     internal class UpdateCheck
     {
-        private static string repo = "Razzmatazzz/RemnantSaveGuardian";
+        private const string repo = "PavelZagumenkin/Remnant2SaveManager_Razzmatazzz_RU";
         private static readonly HttpClient client = new();
         private static DateTime lastUpdateCheck = DateTime.MinValue;
 
@@ -31,10 +31,12 @@ namespace RemnantSaveGuardian
                 var request = new HttpRequestMessage(HttpMethod.Get, $"https://api.github.com/repos/{repo}/releases/latest");
                 request.Headers.Add("user-agent", "remnant-save-guardian");
                 var response = await client.SendAsync(request);
+                if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                    return; // The Russian repository may not have its first release yet.
                 response.EnsureSuccessStatusCode();
                 JsonNode latestRelease = JsonNode.Parse(await response.Content.ReadAsStringAsync());
 
-                Version remoteVersion = new Version(latestRelease["tag_name"].ToString());
+                Version remoteVersion = new Version(latestRelease["tag_name"]!.ToString());
                 Version localVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
                 localVersion = new Version(localVersion.Major, localVersion.Minor, localVersion.Build);
                 if (localVersion.CompareTo(remoteVersion) == -1)
@@ -44,7 +46,7 @@ namespace RemnantSaveGuardian
                     messageBox.Title = Loc.T("Update available");
                     Hyperlink hyperLink = new()
                     {
-                        NavigateUri = new Uri($"https://github.com/Razzmatazzz/RemnantSaveGuardian/releases/tag/{remoteVersion}")
+                        NavigateUri = new Uri(latestRelease["html_url"]!.ToString())
                     };
                     hyperLink.Inlines.Add(Loc.T("Changelog"));
                     hyperLink.RequestNavigate += (o, e) => Process.Start("explorer.exe", e.Uri.ToString());
@@ -71,7 +73,8 @@ namespace RemnantSaveGuardian
                         {
                             InstalledVersion = localVersion,
                             CurrentVersion = remoteVersion.ToString(),
-                            DownloadURL = latestRelease["assets"].AsArray()[0]["browser_download_url"].ToString()
+                            DownloadURL = System.Linq.Enumerable.First(latestRelease["assets"]!.AsArray(),
+                                asset => asset!["name"]!.ToString().EndsWith("-win-x64.zip", StringComparison.OrdinalIgnoreCase))!["browser_download_url"]!.ToString()
                         };
                         messageBox.Close();
                         AutoUpdater.DownloadUpdate(args);

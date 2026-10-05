@@ -1,4 +1,4 @@
-﻿using RemnantSaveGuardian.Helpers;
+using RemnantSaveGuardian.Helpers;
 using RemnantSaveGuardian.ViewModels;
 using RemnantSaveGuardian.Views.Pages;
 
@@ -49,7 +49,7 @@ namespace RemnantSaveGuardian.Views.Windows
             ViewModel = viewModel;
             DataContext = this;
 
-            if (Properties.Settings.Default.UpgradeRequired)
+            if (!DocumentationCapture.Enabled && Properties.Settings.Default.UpgradeRequired)
             {
                 Properties.Settings.Default.Upgrade();
                 Properties.Settings.Default.UpgradeRequired = false;
@@ -90,7 +90,7 @@ namespace RemnantSaveGuardian.Views.Windows
 
                 if (Properties.Settings.Default.SaveFolder.Length == 0)
                 {
-                    Logger.Log("Save folder not set; reverting to default.");
+                    Logger.Log("Папка сохранений не задана; используется папка по умолчанию.");
                     Properties.Settings.Default.SaveFolder = RemnantSave.DefaultSaveFolder();
                     if (!Directory.Exists(RemnantSave.DefaultSaveFolder()))
                     {
@@ -111,19 +111,19 @@ namespace RemnantSaveGuardian.Views.Windows
                 }
                 else if (!Directory.Exists(Properties.Settings.Default.SaveFolder) && !Properties.Settings.Default.SaveFolder.Equals(RemnantSave.DefaultSaveFolder))
                 {
-                    Logger.Log($"Save folder ({Properties.Settings.Default.SaveFolder}) not found; reverting to default.");
+                    Logger.Log($"Папка сохранений ({Properties.Settings.Default.SaveFolder}) не найдена; используется папка по умолчанию.");
                     Properties.Settings.Default.SaveFolder = RemnantSave.DefaultSaveFolder();
                 }
                 if (!Directory.Exists(Properties.Settings.Default.SaveFolder))
                 {
-                    Logger.Log("Save folder not found, creating...");
+                    Logger.Log("Папка сохранений не найдена; создаём…");
                     Directory.CreateDirectory(Properties.Settings.Default.SaveFolder);
                 }
                 SaveWatcher.Watch(Properties.Settings.Default.SaveFolder);
 
                 if (!Directory.Exists(Properties.Settings.Default.GameFolder))
                 {
-                    Logger.Log("Game folder not found...");
+                    Logger.Log("Папка игры не найдена…");
                     //this.btnStartGame.IsEnabled = false;
                     //this.btnStartGame.Content = this.FindResource("PlayGrey");
                     //this.backupCMStart.IsEnabled = false;
@@ -148,7 +148,7 @@ namespace RemnantSaveGuardian.Views.Windows
                 };
             } catch (Exception ex)
             {
-                Logger.Error($"Error loading main window: {ex.Message}");
+                Logger.Error($"Ошибка загрузки главного окна: {ex.Message}");
             }
         }
 
@@ -337,7 +337,8 @@ namespace RemnantSaveGuardian.Views.Windows
         {
             base.OnClosed(e);
 
-            Properties.Settings.Default.Save();
+            if (!DocumentationCapture.Enabled)
+                Properties.Settings.Default.Save();
 
             // Make sure that closing this window will begin the process of closing the application.
             Application.Current.Shutdown();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
@@ -85,7 +85,7 @@ namespace RemnantSaveGuardian.Views.Pages
 
                 Properties.Settings.Default.PropertyChanged += Default_PropertyChanged;
             } catch (Exception ex) {
-                Logger.Error($"Error initializing settings page: {ex}");
+                Logger.Error($"Ошибка загрузки страницы настроек: {ex}");
             }
         }
 
@@ -364,6 +364,9 @@ namespace RemnantSaveGuardian.Views.Pages
                 var culture = langs[cmbSwitchLanguage.SelectedIndex];
 
                 Thread.CurrentThread.CurrentCulture = culture;
+                Thread.CurrentThread.CurrentUICulture = culture;
+                CultureInfo.DefaultThreadCurrentCulture = culture;
+                CultureInfo.DefaultThreadCurrentUICulture = culture;
                 WPFLocalizeExtension.Engine.LocalizeDictionary.Instance.Culture = culture;
                 Application.Current.MainWindow.Language = System.Windows.Markup.XmlLanguage.GetLanguage(culture.IetfLanguageTag);
                 Properties.Settings.Default.Language = langs[cmbSwitchLanguage.SelectedIndex].Name;

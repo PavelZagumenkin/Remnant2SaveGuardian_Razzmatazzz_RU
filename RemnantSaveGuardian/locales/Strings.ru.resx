@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutRSG" xml:space="preserve">
-    <value>О Remnant Save Guardian</value>
+    <value>Remnant Save Guardian RU</value>
   </data>
   <data name="Active" xml:space="preserve">
-    <value>Активный</value>
+    <value>Активная</value>
   </data>
   <data name="Adventure" xml:space="preserve">
     <value>Приключение</value>
   </data>
   <data name="Backup completed" xml:space="preserve">
-    <value>Резерв завершён</value>
+    <value>Резервная копия создана</value>
   </data>
   <data name="Backup Folder" xml:space="preserve">
-    <value>Папка Резерва</value>
+    <value>Папка резервных копий</value>
   </data>
   <data name="Backup folder not set; reverting to default." xml:space="preserve">
-    <value>Папка резерва не установлена; сброшено по умолчанию.</value>
+    <value>Папка резервных копий не задана; используется папка по умолчанию.</value>
   </data>
   <data name="Backup restored" xml:space="preserve">
-    <value>Резерв восстановлен</value>
+    <value>Резервная копия восстановлена</value>
   </data>
   <data name="Backups folder not found, creating..." xml:space="preserve">
-    <value>Папка резерва не найдено, создание...</value>
+    <value>Папка резервных копий не найдена; создаём…</value>
   </data>
   <data name="Backups found" xml:space="preserve">
-    <value>Резервы найдены</value>
+    <value>Найдено резервных копий</value>
   </data>
   <data name="btnBackup_ToolTip" xml:space="preserve">
-    <value>Резерв текущего сохранения</value>
+    <value>Создать резервную копию текущего сохранения</value>
   </data>
   <data name="btnCheckUpdate_Content" xml:space="preserve">
     <value>Проверить сейчас</value>
   </data>
   <data name="btnOpenBackupsFolder_ToolTip" xml:space="preserve">
-    <value>Открыть папку резерва</value>
+    <value>Открыть папку резервных копий</value>
   </data>
   <data name="btnStartGame_ToolTip" xml:space="preserve">
     <value>Запустить игру</value>
@@ -163,31 +163,31 @@
     <value>Персонаж</value>
   </data>
   <data name="chkAutoBackup_Content" xml:space="preserve">
-    <value>Автоматически резервировать сохранения</value>
+    <value>Автоматически создавать резервные копии</value>
   </data>
   <data name="chkAutoBackup_ToolTip" xml:space="preserve">
-    <value>Отслеживать сохранения Remnant II и резервировать их при изменении</value>
+    <value>Отслеживать сохранения Remnant II и копировать их при изменении</value>
   </data>
   <data name="chkAutoCheckUpdate_Content" xml:space="preserve">
     <value>Автоматически проверять обновления программы</value>
   </data>
   <data name="chkCreateLogFile_Content" xml:space="preserve">
-    <value>Создать файл журнала</value>
+    <value>Создавать файл журнала</value>
   </data>
   <data name="chkCreateLogFile_ToolTip" xml:space="preserve">
-    <value>Должен ли создаваться файл log.txt</value>
+    <value>Записывать журнал в файл log.txt</value>
   </data>
   <data name="chkShowPossibleItems_Content" xml:space="preserve">
-    <value>Показывать возможные предметы в анализаторе</value>
+    <value>Показывать столбец «Возможные предметы»</value>
   </data>
   <data name="Choose a backup to restore from the list." xml:space="preserve">
-    <value>Выберете резерв из списка для восстановления.</value>
+    <value>Выберите резервную копию для восстановления.</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Копия</value>
+    <value>Копировать</value>
   </data>
   <data name="Could not find save file location; please set manually" xml:space="preserve">
-    <value>Не найдено расположение сохранений; Пожалуйста, укажите вручную</value>
+    <value>Папка сохранений не найдена; укажите её в настройках.</value>
   </data>
   <data name="Dark" xml:space="preserve">
     <value>Тёмная</value>
@@ -196,28 +196,28 @@
     <value>Удалить</value>
   </data>
   <data name="Deleting excess backup" xml:space="preserve">
-    <value>Удаление лишних резервов</value>
+    <value>Удаление старой резервной копии</value>
   </data>
   <data name="Do you want to move your backups to this new folder?" xml:space="preserve">
-    <value>Вы хотите переместить свои резервы в эту новую папку?</value>
+    <value>Переместить резервные копии в новую папку?</value>
   </data>
   <data name="Error checking for new game info" xml:space="preserve">
-    <value>Ошибка при проверке новой информации об игре</value>
+    <value>Ошибка проверки обновлений игровых данных</value>
   </data>
   <data name="Error checking for new version" xml:space="preserve">
-    <value>Ошибка при проверке новой версии</value>
+    <value>Ошибка проверки обновлений программы</value>
   </data>
   <data name="Exit the game before restoring a save backup." xml:space="preserve">
-    <value>Выйдите из игры перед восстановлением сохраненного резерва.</value>
+    <value>Закройте игру перед восстановлением резервной копии.</value>
   </data>
   <data name="Export save files as plaintext" xml:space="preserve">
-    <value>Экспортировать сохранение в виде открытого текста</value>
+    <value>Экспортировать сохранения</value>
   </data>
   <data name="Game Folder" xml:space="preserve">
     <value>Папка игры</value>
   </data>
   <data name="Game info updated." xml:space="preserve">
-    <value>Игровая информация обновлена.</value>
+    <value>Игровые данные обновлены.</value>
   </data>
   <data name="Hardcore" xml:space="preserve">
     <value>Героический режим</value>
@@ -226,43 +226,43 @@
     <value>Главная</value>
   </data>
   <data name="Info" xml:space="preserve">
-    <value>Инфо</value>
+    <value>Информация</value>
   </data>
   <data name="Invalid backup restore type" xml:space="preserve">
-    <value>Недопустимый тип восстановления резерва</value>
+    <value>Недопустимый тип восстановления</value>
   </data>
   <data name="Invalid Folder" xml:space="preserve">
     <value>Недопустимая папка</value>
   </data>
   <data name="InvalidBackupFolderNoBackupsInSaves" xml:space="preserve">
-    <value>Недопустимая папка: Папка резерва не может быть в папке сохранений игры.</value>
+    <value>Папка резервных копий должна отличаться от папки сохранений игры.</value>
   </data>
   <data name="InvalidGameFolder" xml:space="preserve">
-    <value>Недопустимая папка: Выберите, в которую установлена ваша игра Remnant II.</value>
+    <value>Выберите папку, в которой установлена Remnant II.</value>
   </data>
   <data name="InvalidSaveFolder" xml:space="preserve">
-    <value>Недопустимая папка: Выберите, где хранятся ваши сохранения Remnant II</value>
+    <value>Выберите папку с сохранениями Remnant II.</value>
   </data>
   <data name="InvalidSaveFolderNoSavesInBackups" xml:space="preserve">
-    <value>Недопустимая папка: Пожалуйста, выберите папку, отличную от папки резерва.</value>
+    <value>Папка сохранений должна отличаться от папки резервных копий.</value>
   </data>
   <data name="Keep" xml:space="preserve">
-    <value>Удержать</value>
+    <value>Сохранить</value>
   </data>
   <data name="Last backup save date" xml:space="preserve">
-    <value>Дата последнего резерва</value>
+    <value>Дата последней резервной копии</value>
   </data>
   <data name="lblBackupLimit_Text" xml:space="preserve">
-    <value>Максимум резервов (0 для убирания лимита)</value>
+    <value>Максимум копий (0 — без ограничений)</value>
   </data>
   <data name="lblBackupLimit_ToolTip" xml:space="preserve">
-    <value>Когда количество ваших резервов достигнет этого значения, резервы будут автоматически удалены, начиная с самого старого</value>
+    <value>При достижении лимита удаляются самые старые копии без отметки «Сохранить».</value>
   </data>
   <data name="lblBackupMins_Text" xml:space="preserve">
-    <value>Минуты между резервами</value>
+    <value>Интервал между копиями, мин.</value>
   </data>
   <data name="lblBackupMins_ToolTip" xml:space="preserve">
-    <value>Минимальное количество времени, которое должно пройти с момента последнего резерва, прежде чем будет создан новый резерв</value>
+    <value>Минимальное время между автоматическим созданием резервных копий</value>
   </data>
   <data name="lblMissingItemColor_Content" xml:space="preserve">
     <value>Цвет отсутствующего предмета в анализаторе мира</value>
@@ -271,7 +271,7 @@
     <value>Стартовая страница</value>
   </data>
   <data name="lblStartPage_ToolTip" xml:space="preserve">
-    <value>Какую страницу загружать при запуске приложения</value>
+    <value>Страница, открываемая при запуске программы</value>
   </data>
   <data name="Light" xml:space="preserve">
     <value>Светлая</value>
@@ -283,22 +283,22 @@
     <value>Всё</value>
   </data>
   <data name="menuRestoreCharacters_Header" xml:space="preserve">
-    <value>Только персонажы</value>
+    <value>Только персонажей</value>
   </data>
   <data name="menuRestoreWorlds_Header" xml:space="preserve">
     <value>Только миры</value>
   </data>
   <data name="menuRestore_Header" xml:space="preserve">
-    <value>Восстановить резерв</value>
+    <value>Восстановить копию</value>
   </data>
   <data name="Missing Items" xml:space="preserve">
     <value>Отсутствующие предметы</value>
   </data>
   <data name="Move Backups" xml:space="preserve">
-    <value>Переместить резервы</value>
+    <value>Перемещение резервных копий</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Имя</value>
+    <value>Название</value>
   </data>
   <data name="New version available!" xml:space="preserve">
     <value>Доступна новая версия!</value>
@@ -310,34 +310,34 @@
     <value>Открыть папку</value>
   </data>
   <data name="Open wiki" xml:space="preserve">
-    <value>Открыть Вики</value>
+    <value>Открыть вики</value>
   </data>
   <data name="Possible Items" xml:space="preserve">
     <value>Возможные предметы</value>
   </data>
   <data name="Preferences" xml:space="preserve">
-    <value>Предпочтения</value>
+    <value>Параметры</value>
   </data>
   <data name="processing save file change" xml:space="preserve">
-    <value>обработка изменения файла сохранения</value>
+    <value>обработка изменения сохранения</value>
   </data>
   <data name="Progression" xml:space="preserve">
-    <value>Выполнение</value>
+    <value>Прогресс</value>
   </data>
   <data name="Red" xml:space="preserve">
     <value>Красный</value>
   </data>
   <data name="Save Backups" xml:space="preserve">
-    <value>Резервы сохранений</value>
+    <value>Резервные копии</value>
   </data>
   <data name="Save file in use; waiting 0.5 seconds and retrying." xml:space="preserve">
-    <value>Файл сохранения используется; подождите 0,5 секунды и повторите попытку.</value>
+    <value>Файл сохранения занят; повторная попытка через 0,5 секунды.</value>
   </data>
   <data name="Save Folder" xml:space="preserve">
     <value>Папка сохранений</value>
   </data>
   <data name="Save plaintext data" xml:space="preserve">
-    <value>Сохранение данных в виде открытого текста</value>
+    <value>Сохранить текстовые данные</value>
   </data>
   <data name="SaveDate" xml:space="preserve">
     <value>Дата сохранения</value>
@@ -346,10 +346,10 @@
     <value>Сохранения</value>
   </data>
   <data name="Select a folder other than the game's save folder." xml:space="preserve">
-    <value>Выберите папку, отличную от папки сохранения игры.</value>
+    <value>Выберите папку, отличную от папки сохранений игры.</value>
   </data>
   <data name="setting save file timer" xml:space="preserve">
-    <value>установка таймера файла сохранения</value>
+    <value>настройка таймера сохранения</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Настройки</value>
@@ -367,9 +367,150 @@
     <value>Анализатор мира</value>
   </data>
   <data name="You must wait 5 minutes between update checks" xml:space="preserve">
-    <value>Вы должны подождать 5 минут между проверками обновлений</value>
+    <value>Между проверками обновлений должно пройти 5 минут.</value>
   </data>
   <data name="Zoom" xml:space="preserve">
-    <value>Приближение</value>
+    <value>Масштаб</value>
+  </data>
+  <data name="Unrecognized_save_files_warning_{fileList}" xml:space="preserve">
+    <value>В папке сохранений найдены неизвестные файлы: {fileList}. Они могут мешать анализу мира.</value>
+  </data>
+  <data name="Update available" xml:space="preserve">
+    <value>Доступно обновление</value>
+  </data>
+  <data name="lblWiki_ToolTip" xml:space="preserve">
+    <value>Сайт, открываемый при поиске сведений о предмете</value>
+  </data>
+  <data name="lblMissingItemColor_Text" xml:space="preserve">
+    <value>Цвет отсутствующих предметов</value>
+  </data>
+  <data name="Could not parse updated game data; check for new version of this app" xml:space="preserve">
+    <value>Не удалось прочитать обновлённые игровые данные; проверьте обновления программы.</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="chkOpacity_note_Text" xml:space="preserve">
+    <value>(Экспериментально; возможна нестабильная работа)</value>
+  </data>
+  <data name="Confirm Delete" xml:space="preserve">
+    <value>Подтверждение удаления</value>
+  </data>
+  <data name="Save change detected; waiting {numMinutes} minutes until next backup" xml:space="preserve">
+    <value>Сохранение изменилось; следующая копия через {numMinutes} мин.</value>
+  </data>
+  <data name="Language_change_notice_{chosenLanguage}" xml:space="preserve">
+    <value>Выбран язык: {chosenLanguage}. Для полного применения перезапустите программу.</value>
+  </data>
+  <data name="No_profile_sav_found_warning" xml:space="preserve">
+    <value>Среди файлов должен быть profile.sav.</value>
+  </data>
+  <data name="WorldAnalyzerFilter_PlaceholderText" xml:space="preserve">
+    <value>Поиск событий и предметов</value>
+  </data>
+  <data name="chkShowCoopItems_Content" xml:space="preserve">
+    <value>Показывать предметы для совместной игры в анализаторе</value>
+  </data>
+  <data name="Import_failed_backup_exists" xml:space="preserve">
+    <value>Импорт невозможен: копия с такой датой уже существует.</value>
+  </data>
+  <data name="Could not delete backup:" xml:space="preserve">
+    <value>Не удалось удалить копию:</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="chkAutoHideNaviAndTitleBar_Content" xml:space="preserve">
+    <value>Скрывать навигацию и заголовок неактивного окна</value>
+  </data>
+  <data name="Fextralife" xml:space="preserve">
+    <value>Вики Fextralife</value>
+  </data>
+  <data name="Unexpected_event_group_number_warning_{numberOfEventGroups}" xml:space="preserve">
+    <value>Обнаружено групп событий: {numberOfEventGroups}, ожидается не более двух. Анализ может быть неточным.</value>
+  </data>
+  <data name="Collapse All" xml:space="preserve">
+    <value>Свернуть всё</value>
+  </data>
+  <data name="lblSwitchLanguage_Text" xml:space="preserve">
+    <value>Язык интерфейса</value>
+  </data>
+  <data name="Are you sure you want to delete backup {backupName}?" xml:space="preserve">
+    <value>Удалить резервную копию «{backupName}»?</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="RemnantWiki" xml:space="preserve">
+    <value>Remnant.wiki</value>
+  </data>
+  <data name="Text_Normal" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Backup deleted" xml:space="preserve">
+    <value>Резервная копия удалена</value>
+  </data>
+  <data name="The latest version of Remnant Save Guardian is {CurrentVersion}. You are using version {LocalVersion}. Do you want to upgrade the application now?" xml:space="preserve">
+    <value>Доступна версия Remnant Save Guardian RU {CurrentVersion}. Установлена версия {LocalVersion}. Обновить программу?</value>
+  </data>
+  <data name="Import_save_success" xml:space="preserve">
+    <value>Сохранение импортировано в резервные копии</value>
+  </data>
+  <data name="lblWiki_Text" xml:space="preserve">
+    <value>Вики для поиска предметов</value>
+  </data>
+  <data name="lblOpacitySlider_Text" xml:space="preserve">
+    <value>Непрозрачность</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Error exporting save files: {errorMessage}" xml:space="preserve">
+    <value>Ошибка экспорта сохранений: {errorMessage}</value>
+  </data>
+  <data name="Expand All" xml:space="preserve">
+    <value>Развернуть всё</value>
+  </data>
+  <data name="chkOnlyInactive_Content" xml:space="preserve">
+    <value>Только для неактивного окна</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Changelog" xml:space="preserve">
+    <value>Список изменений</value>
+  </data>
+  <data name="No_world_found_warning" xml:space="preserve">
+    <value>Нужен хотя бы один файл мира save_#.sav.</value>
+  </data>
+  <data name="Opacity_toggle_notice" xml:space="preserve">
+    <value>Настройка прозрачности изменена. Перезапустите программу для её применения.</value>
+  </data>
+  <data name="Characters" xml:space="preserve">
+    <value>Персонажи</value>
+  </data>
+  <data name="chkOpacity_Content" xml:space="preserve">
+    <value>Прозрачность окна</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="export_save_invalid_folder_error" xml:space="preserve">
+    <value>Нельзя экспортировать в папку сохранений или резервных копий.</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="Always On Top" xml:space="preserve">
+    <value>Поверх всех окон</value>
+  </data>
+  <data name="Text_Highlight" xml:space="preserve">
+    <value>Выделенный</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
   </data>
 </root>

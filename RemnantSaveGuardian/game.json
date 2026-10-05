@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "mainLocations": [
     "Quest_Global_TheHunterDream_Template01",
     "Quest_Story_AllFather_DranCity1_Template",
@@ -203,7 +203,7 @@
       "LivingStone": [
         {
           "name": "/Items/Trinkets/Rings/LithicSignet/Ring_LithicSignet",
-          "notes": "Found in The Lament, The Twisted Chantry, or The Chimney locations on Yaesha at the end of a hidden passageway. To open the passageway, locate a room with 4 statues of Pan Warriors and shoot the crystals in their foreheads, opening a hidden stair case in the middle of the room."
+          "notes": "Находится в конце тайного прохода в Плаче, Искривлённой часовне или Дымоходе на Яэше. Найдите комнату с четырьмя статуями воинов-панов и выстрелите в кристаллы на их лбах: в центре откроется лестница."
         }
       ],
       "ThaenLeaf": [
@@ -224,7 +224,7 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/RedDoeSigil/Amulet_RedDoeSigil",
-          "notes": "Rewarded by giving the Ornate Lockbox item (unopened) found in The Widow's Court location on Yaesha, to The Eternal Empress at the Red Throne location on Yaesha."
+          "notes": "Отдайте Вечной императрице у Красного трона на Яэше неоткрытый украшенный ларец из Двора вдовы."
         },
         {
           "name": "/Items/Trinkets/Rings/ZoheesRing/Ring_ZoheesRing"
@@ -236,15 +236,15 @@
       "RavagerStory": [
         {
           "name": "/Items/Trinkets/Rings/FrivolousBand/Ring_FrivolousBand",
-          "notes": "Rewarded by speaking with Bedel of the Vaunnt in The Forbidden Grove location on Yaesha, after reviving the Red Doe in the Corrupted Ravager boss fight. Upon first meeting Bedel in The Forbidden Grove, the player must choose funny / sarcastic dialogue options and accept his quest, prior to reviving the Doe. Then upon speaking with him again, the player must choose the \"Maybe...\" dialogue option when asked if the player saved the Doe."
+          "notes": "При первой встрече с Беделом в Запретной роще выбирайте шутливые или саркастические ответы и примите задание. Оживите Красную Лань во время боя с Опустошителем, затем вернитесь к Беделу и ответьте «Может быть…» на вопрос о спасении Лани."
         },
         {
           "name": "/Items/Trinkets/Rings/LodestoneRing/Ring_LodestoneRing",
-          "notes": "Rewarded by speaking with Bedel of The Vaunnt in the Forbidden Grove location on Yaesha while wearing the Lodestone Crown armor piece."
+          "notes": "Поговорите с Беделом в Запретной роще на Яэше, надев корону из магнитного камня."
         },
         {
           "name": "/Items/Weapons/Melee/Standard/Spear/RebellionSpear/Weapon_RebellionSpear",
-          "notes": "Granted as Reward by Bedel of the Vaunnt for saving the Doe during the Corrupted Ravager boss fight."
+          "notes": "Награда Бедела за спасение Лани во время боя с Опустошителем."
         },
         {
           "name": "/Items/Trinkets/Rings/BloodJewel/Ring_BloodJewel"
@@ -265,7 +265,7 @@
         },
         {
           "name": "/Items/Weapons/Melee/Special/FeralJudgment/Weapon_FeralJudgment",
-          "notes": "Crafted by McCabe at Ward 13. Requires the Ravager's Maw item, obtained from performing an Alt Kill on the Corrupted Ravager boss in the Ravager's Lair location on Yaesha. The Alt Kill is performed by shooting the Ravager to initate the fight, killing the Red Doe before the Ravager is able to eat it, and then killing the Ravager boss."
+          "notes": "Создаётся у Маккейб в Блоке 13 из пасти Опустошителя. Начните бой, выстрелив в Опустошителя, убейте Красную Лань до того, как он её съест, затем победите босса."
         },
         {
           "name": "/Items/Weapons/Melee/Special/RedDoeStaff/Weapon_RedDoeStaff"
@@ -354,7 +354,7 @@
       "RootHorror": [
         {
           "name": "/Items/Trinkets/Rings/TearOfKaeula/Ring_TearOfKaeula",
-          "notes": "Found in the Kaeula's Rest location on Yaesha, at the foot of a statue, beneath a waterfall."
+          "notes": "В Покое Кэулы на Яэше, у подножия статуи под водопадом."
         },
         {
           "name": "/Items/Mods/Mod_Rootlash/Mod_Rootlash"
@@ -423,7 +423,7 @@
         },
         {
           "name": "/Items/Trinkets/Rings/RingOfOmens/Ring_RingOfOmens",
-          "notes": "Found in the Cathedral of Omens location on Yaesha, behind a red trap door on the ground, after solving the Blood Moon puzzle. The trapdoor will only open during the Blood Moon event."
+          "notes": "В Соборе знамений на Яэше за красным люком после решения головоломки Кровавой луны. Люк открывается только во время Кровавой луны."
         },
         {
           "name": "/Items/Weapons/LongGuns/Special/Sagittarius/Weapon_Sagittarius"
@@ -458,13 +458,13 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/DownwardSpiral/Amulet_DownwardSpiral",
-          "notes": "Found in the Chimney location on Yaesha, hidden halfway down the staircase in the Crystal Elevator event."
+          "notes": "В Дымоходе на Яэше, в тайнике на середине лестницы во время события с кристальным лифтом."
         }
       ],
       "TheLament": [
         {
           "name": "/Items/Armor/Armor_Head_LodestoneCrown",
-          "notes": "On the boat inside Kolkets locked room",
+          "notes": "На лодке внутри запертой комнаты Колкета.",
           "armorSet": false
         },
         {
@@ -489,7 +489,7 @@
       "TheTangle": [
         {
           "name": "/Items/Trinkets/Amulets/FullMoonCirclet/Amulet_FullMoonCirclet",
-          "notes": "Found in The Imperial Gardens location on Yaesha, in a hidden room below a trapdoor marked with a golden full moon crest. The trapdoor will only open during the Blood Moon event."
+          "notes": "В Императорских садах на Яэше, под люком со знаком золотой полной луны. Люк открывается только во время Кровавой луны."
         },
         {
           "name": "/Items/Weapons/Melee/Standard/Katana/EdgeOfTheForest/Weapon_EdgeOfTheForest"
@@ -520,7 +520,7 @@
       "RedDoeStatue": [
         {
           "name": "/Items/Gems/Ranged/MetaGems/GhostShell/MetaGem_GhostShell",
-          "notes": "Rewarded by interacting with the Rotten Thaen Fruit item. The item can be found in The Widow's Court location on Yaesha at the end of a secret passage. To unlock the passage, wear the Red Doe's Sigil amulet in front of the statue of the Ravager and the Red Doe."
+          "notes": "Используйте гнилой плод таэна из тайного прохода во Дворе вдовы. Чтобы открыть проход, наденьте печать Красной Лани перед статуей Опустошителя и Лани."
         }
       ],
       "Amulet_MatriarchsInsignia": [
@@ -552,7 +552,7 @@
         },
         {
           "name": "/Items/Trinkets/Rings/RingOfGrace/Ring_RingOfGrace",
-          "notes": "Give Dria's Anklet to Riewen'"
+          "notes": "Отдайте браслет Дрии Риуэну."
         },
         {
           "name": "/Items/Traits/Core/ArcaneStrike/Trait_ArcaneStrike"
@@ -720,27 +720,27 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/OneTrueKingSigil/Amulet_OneTrueKingSigil",
-          "notes": "Give Faerin and Faelin's Sigil to Nimue"
+          "notes": "Отдайте печати Фэйрина и Фэйлина Нимуэ."
         },
         {
           "name": "/Items/Trinkets/Amulets/NimuesRibbon/Amulet_NimuesRibbon",
-          "notes": "Give Silver and Gold Ribbon to Nimue"
+          "notes": "Отдайте серебряную и золотую ленты Нимуэ."
         },
         {
           "name": "/Items/Weapons/Melee/Standard/Sword/AssassinsDagger/Weapon_AssassinsDagger",
-          "notes": "Give Council Chambers dagger to Nimue"
+          "notes": "Отдайте Нимуэ кинжал из Палаты совета."
         },
         {
           "name": "/Items/Weapons/LongGuns/Special/CrescentMoon/Weapon_CrescentMoon",
-          "notes": "Use Dreamcatcher on Nimue while she is sleeping"
+          "notes": "Используйте Ловец снов на спящей Нимуэ."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/TranquilHeart/Relic_Consumable_TranquilHeart",
-          "notes": "Give Tormented Heart to Nimue"
+          "notes": "Отдайте измученное сердце Нимуэ."
         },
         {
           "name": "/Items/Armor/TrueCrimsonCrown/Armor_Head_TrueCrimsonCrown",
-          "notes": "Give Crimson Guard Shroud and Crown of the Red Prince to Nimue",
+          "notes": "Отдайте Нимуэ головной убор Багрового стража и корону Красного принца.",
           "armorSet": false
         }
       ],
@@ -841,7 +841,7 @@
       "TheHunter": [
         {
           "name": "/Items/Mods/Mod_Familiar/Mod_Familiar",
-          "notes": "dream world version"
+          "notes": "Вариант в мире снов."
         },
         {
           "name": "/Items/Weapons/Melee/Special/HuntressSpear/Weapon_HuntressSpear"
@@ -850,7 +850,7 @@
       "Rookery": [
         {
           "name": "/Items/Trinkets/Amulets/EffigyPendant/Amulet_EffigyPendant",
-          "notes": "Inside lockbox"
+          "notes": "Внутри запертого ларца."
         },
         {
           "name": "/Items/Trinkets/Amulets/CleansingStone/Amulet_CleansingStone"
@@ -912,7 +912,7 @@
         },
         {
           "name": "/Items/Armor/Misc/Armor_Head_RedPrince",
-          "notes": "kill with Assassins Dagger",
+          "notes": "Убейте Красного принца кинжалом убийцы.",
           "armorSet": false
         }
       ],
@@ -925,7 +925,7 @@
         },
         {
           "name": "/Items/Trinkets/Rings/BitterMemento/Ring_BitterMemento",
-          "notes": "Offer Memoriam Medallion Key to Nightweaver's Web."
+          "notes": "Отдайте ключ-медальон памяти Паутине Ночной Ткачихи."
         }
       ],
       "FaelinFaerlin": [
@@ -950,7 +950,7 @@
         },
         {
           "name": "/Items/Trinkets/Rings/AssassinsSeal/Ring_AssassinsSeal",
-          "notes": "kill council members"
+          "notes": "Убейте членов совета."
         },
         {
           "name": "/Items/Weapons/Melee/Standard/Sword/OrnateBlade/Weapon_OrnateBlade"
@@ -967,49 +967,49 @@
       "Nightweb": [
         {
           "name": "/Items/Weapons/Melee/Special/Dreamcatcher/Weapon_Dreamcatcher",
-          "notes": "Rewarded by offering the Nightweaver Stone Doll item found in the Tormented Asylum location on Losomn to the Nightweaver's Web event found in the Tormented Asylum location on Losomn. This can be done in any mode that has rolled both locations."
+          "notes": "Отдайте каменную куклу Ночной Ткачихи её Паутине в Измученной лечебнице Лосомна. Обе локации должны присутствовать в одном прохождении."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/TormentedHeart/Relic_Consumable_TormentedHeart",
-          "notes": "Rewarded by offering the Overide Pin item found in the Timeless Horizon location on N'Erud to the Nightweaver's Web event found in the Tormented Asylum location on Losomn. This must be done on a campaign that has rolled both locations."
+          "notes": "Отдайте ключ-переопределитель из Безвременного горизонта Н'Эруда Паутине Ночной Ткачихи в Измученной лечебнице Лосомна. Нужна кампания с обеими локациями."
         },
         {
           "name": "/Items/Trinkets/Rings/RingOfRetribution/Ring_RingOfRetribution",
-          "notes": "Rewarded by offering the Dria's Anklet item found in the Harvester's Reach location on Losomn to the Nightweaver's Web event found in the Tormented Asylum location on Losomn. This can be done in any mode that has rolled both locations."
+          "notes": "Отдайте браслет Дрии из Предела жнеца Паутине Ночной Ткачихи в Измученной лечебнице Лосомна. Обе локации должны присутствовать в одном прохождении."
         },
         {
           "name": "/Items/Trinkets/Amulets/NightweaversGrudge/Amulet_NightweaversGrudge",
-          "notes": "Rewarded by offering the Kolkets Razor item found in The Lament location on Yaesha to the Nightweaver's Web event found in the Tormented Asylum location on Losomn. This must be done on a campaign that has rolled both locations."
+          "notes": "Отдайте бритву Колкета из Плача на Яэше Паутине Ночной Ткачихи в Измученной лечебнице Лосомна. Нужна кампания с обеими локациями."
         },
         {
           "name": "/Items/Weapons/HandGuns/Special/RunePistol/Weapon_RunePistol",
-          "notes": "Rewarded by offering the Ravenous Medallion item found in the Great Hall location on Losomn to the Nightweaver's Web event found in the Tormented Asylum location on Losomn. This can be done in any mode that has rolled both locations."
+          "notes": "Отдайте медальон голода из Великого зала Паутине Ночной Ткачихи в Измученной лечебнице Лосомна. Обе локации должны присутствовать в одном прохождении."
         }
       ],
       "AllFatherStory": [
         {
           "name": "/Items/Trinkets/Rings/CatalogersJewel/Ring_CatalogersJewel",
-          "notes": "near entrance to The Great Sewer in Beatific Palace"
+          "notes": "Рядом со входом в Великую канализацию в Благословенном дворце."
         },
         {
           "name": "/Items/Trinkets/Amulets/JestersBell/Amulet_JestersBell",
-          "notes": "clap emote while Jester perfroms"
+          "notes": "Используйте жест аплодисментов во время выступления Шута."
         },
         {
           "name": "/Items/Trinkets/Amulets/OneEyedJokerIdol/Amulet_OneEyedJokerIdol",
-          "notes": "Jester Card Doors - face mask door"
+          "notes": "Карточные двери Шута: дверь с маской."
         },
         {
           "name": "/Items/Gems/Melee/MetaGems/Misfortune/MetaGem_Misfortune",
-          "notes": "Jester Card Doors - devil horns door"
+          "notes": "Карточные двери Шута: дверь с дьявольскими рогами."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/UnsulliedHeart/Relic_Consumable_UnsulliedHeart",
-          "notes": "Wear OneTrueKing(AM) and both Faerin/Faelin(RI) in the Palace Courtyard"
+          "notes": "Во Дворе дворца наденьте амулет Единственного истинного короля и оба кольца Фэйрина и Фэйлина."
         },
         {
           "name": "/Items/Trinkets/Amulets/ShadeBloomFloret/Amulet_ShadeBloomCrystal",
-          "notes": "on the bone pile where the Jester sits in Beatific Palace"
+          "notes": "На груде костей, где сидит Шут в Благословенном дворце."
         }
       ],
       "TheSafe": [
@@ -1020,7 +1020,7 @@
       "RisingTides": [
         {
           "name": "/Items/Weapons/HandGuns/Special/Meridian/Weapon_Meridian",
-          "notes": "wait 90m for the water to rise"
+          "notes": "Подождите 90 минут, пока поднимется вода."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheDivine/Ring_BurdenOfTheDivine"
@@ -1036,7 +1036,7 @@
       "TheCoreStory": [
         {
           "name": "/Items/Trinkets/Rings/DowngradedRing/Ring_DowngradedRing",
-          "notes": "Rewarded by speaking with the Custodian at the Ascension Spire location on N'Erud, after defeating Sha'Hala."
+          "notes": "Поговорите с Хранителем у Шпиля Вознесения на Н'Эруде после победы над Ша'Халой."
         },
         {
           "name": "/Items/Mods/EnergyWall/Mod_EnergyWall"
@@ -1155,7 +1155,7 @@
         },
         {
           "name": "/Items/Trinkets/Rings/GeneratingBand/Ring_GeneratingBand",
-          "notes": "Found in The Hatchery, Void Vessel Facility, Vault of the Formless, or The Putrid Domain locations on N'Erud during the Flooded Room event. Once the event starts, you will have one chance to collect the items in the room before it fills with water."
+          "notes": "В Затопленной комнате Инкубатора, Комплекса пустотных сосудов, Хранилища бесформенных или Гнилого владения на Н'Эруде. После запуска события есть только одна попытка собрать предметы до затопления."
         },
         {
           "name": "/Items/Trinkets/Rings/SubterfugeLink/Ring_SubterfugeLink"
@@ -1224,7 +1224,7 @@
         },
         {
           "name": "/Items/Traits/Core/Leech/Trait_Leech",
-          "notes": "Get killed by getting locked in the purge",
+          "notes": "Погибните, оказавшись запертым внутри во время очистки.",
           "coop": true
         }
       ],
@@ -1297,7 +1297,7 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/Hyperconductor/Amulet_Hyperconductor",
-          "notes": "Found in the Terminus Station location on N'Erud, hidden in a crawlspace to the left of a ladder, in the Train event."
+          "notes": "На станции Терминус на Н'Эруде, в лазе слева от лестницы во время события с поездом."
         },
         {
           "name": "/Items/Traits/Core/Footwork/Trait_Footwork"
@@ -1335,11 +1335,11 @@
         },
         {
           "name": "/Items/Mods/Overflow/Mod_Overflow",
-          "notes": "Crafted by McCabe at Ward 13. Requires the Escalation Circuit item, found in the Phantom Wasteland/Ascension Spire location on N'Erud, located in a secret room beneath the Custodian NPC. Once in the secret room, take the elevator on the right to travel down, then imediately look for a crawl space to the right."
+          "notes": "Создаётся у Маккейб в Блоке 13 из цепи эскалации. В тайной комнате под Хранителем у Шпиля Вознесения на Н'Эруде спуститесь на правом лифте и сразу ищите лаз справа."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/SiphonHeart/Relic_Consumable_SiphonHeart",
-          "notes": "give Shining Essence to Custodian"
+          "notes": "Отдайте сияющую сущность Хранителю."
         }
       ],
       "DrzyrReplicator": [
@@ -1372,7 +1372,7 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/VoidIdol/Amulet_VoidIdol",
-          "notes": "Crafted at the Drzyr Replicator at the Ascension Spire location on N'Erud. Requires the Shining Essence Echo item, granted after defeating Tal'Ratha. The Drzyr Replicator can be found in a hidden passage in the Custodian's tower."
+          "notes": "Создаётся в репликаторе дрзиров у Шпиля Вознесения на Н'Эруде из эха сияющей сущности, получаемого после победы над Тал'Ратой. Репликатор находится в тайном проходе башни Хранителя."
         }
       ],
       "NerudGuardian": [
@@ -1381,7 +1381,7 @@
         },
         {
           "name": "/Items/Weapons/Melee/Special/SpectralBlade/Weapon_SpectralBlade",
-          "notes": "dont put override pin"
+          "notes": "Не используйте ключ-переопределитель."
         }
       ],
       "TalRatha": [
@@ -1390,11 +1390,11 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/NavigatorsPendant/Amulet_NavigatorsPendant",
-          "notes": "get eaten while wearing rusted navigators"
+          "notes": "Позвольте Тал'Рате съесть вас, надев ржавый кулон навигатора."
         },
         {
           "name": "/Items/Weapons/Melee/Special/TalRatha_Hammer/Weapon_TalRatha_Hammer",
-          "notes": "get eaten by tal ratha"
+          "notes": "Позвольте Тал'Рате съесть вас."
         }
       ],
       "OverworldFog": [
@@ -1419,7 +1419,7 @@
       "Dranception": [
         {
           "name": "/Items/Weapons/Anguish/Weapon_Anguish",
-          "notes": "Enter the FinalDream and find the Drans in each world."
+          "notes": "Войдите в последний сон и найдите дранов в каждом мире."
         }
       ],
       "Amulet_BrewmastersCork": [
@@ -1511,11 +1511,11 @@
         {
           "name": "/Quests/Quest_Event_Dranception/Items/Quest_Item_DLC_DreamLevel",
           "ignore": false,
-          "notes": "Use liquid escape in the Manor, then Escape the dream through the crystal."
+          "notes": "Используйте «Жидкое спасение» в поместье, затем покиньте сон через кристалл."
         },
         {
           "name": "/Items/Trinkets/Rings/CrimsonDreamstone/Ring_CrimsonDreamstone",
-          "notes": "Use liquid escape in the manor."
+          "notes": "Используйте «Жидкое спасение» в поместье."
         },
         {
           "name": "/Items/Trinkets/Amulets/DeathSoakedIdol/Amulet_DeathSoakedIdol"
@@ -1524,7 +1524,7 @@
       "Halls_DLC": [
         {
           "name": "/Items/Trinkets/Rings/ShaedStone/Ring_ShaedStone",
-          "notes": "Shoot the invisible golden pot in the reflection you see on the mirrored floor."
+          "notes": "Выстрелите в невидимый золотой горшок, ориентируясь на отражение в зеркальном полу."
         }
       ],
       "Sewer": [
@@ -1545,15 +1545,15 @@
       "GardenMaze": [
         {
           "name": "/Items/Trinkets/Amulets/GiftOfMelancholy/Amulet_GiftOfMelancholy",
-          "notes": "Medallion Shaed Reward"
+          "notes": "Награда за теневой медальон."
         },
         {
           "name": "/Items/Trinkets/Amulets/GiftOfEuphoria/Amulet_GiftOfEuphoria",
-          "notes": "Medallion Gold Reward"
+          "notes": "Награда за золотой медальон."
         },
         {
           "name": "/Items/Mods/Mod_KnightGuard/Mod_KnightGuard",
-          "notes": "Wear the Red Prince Crown in the room on Golden Hall."
+          "notes": "Наденьте корону Красного принца в комнате Золотого зала."
         },
         {
           "name": "/Items/Gems/Ranged/Prophecy/MetaGem_Prophecy"
@@ -1563,7 +1563,7 @@
       "Lighthouse": [
         {
           "name": "/Items/Weapons/Buster/Weapon_Sparkfire",
-          "notes": "Outside the lighthouse down the path, around a rock is a secret door, interact with item to get the key to open the door"
+          "notes": "Снаружи маяка, за камнем вдоль тропы, есть тайная дверь. Осмотрите ключ и измените его, чтобы открыть эту дверь."
         },
         {
           "name": "/Items/Gems/Ranged/Sleeper/MetaGem_Sleeper"
@@ -1578,45 +1578,45 @@
         },
         {
           "name": "/Items/Gems/Melee/Guts/MetaGem_Guts",
-          "notes": "Return to dran the woman after destroying both of the totems."
+          "notes": "Вернитесь к женщине-драну после уничтожения обоих тотемов."
         }
       ],
       "ForlornCoastStory": [
         {
           "name": "/Items/Archetypes/Ritualist/Armor/Armor_Head_Ritualist",
-          "notes": "Shoot hanging body under the bridge before Nimue."
+          "notes": "Выстрелите в висящее тело под мостом перед Нимуэ."
         },
         {
           "name": "/Items/Archetypes/Ritualist/Armor/Armor_Body_Ritualist",
-          "notes": "Shoot hanging body under the bridge before Nimue."
+          "notes": "Выстрелите в висящее тело под мостом перед Нимуэ."
         },
         {
           "name": "/Items/Archetypes/Ritualist/Armor/Armor_Legs_Ritualist",
-          "notes": "Shoot hanging body under the bridge before Nimue."
+          "notes": "Выстрелите в висящее тело под мостом перед Нимуэ."
         },
         {
           "name": "/Items/Archetypes/Ritualist/Armor/Armor_Gloves_Ritualist",
-          "notes": "Shoot hanging body under the bridge before Nimue."
+          "notes": "Выстрелите в висящее тело под мостом перед Нимуэ."
         },
         {
           "name": "/Items/Trinkets/Rings/DigestedHogLure/Ring_DigestedHogLure",
-          "notes": "Kill all the hogs by the Anchor statue."
+          "notes": "Убейте всех кабанов у статуи-якоря."
         },
         {
           "name": "/Items/Traits/DarkPact/Trait_DarkPact",
-          "notes": "Shoot all three bells in Forlorn Coast to complete the Bells event."
+          "notes": "Выстрелите во все три колокола на Покинутом берегу."
         },
         {
           "name": "/Items/Trinkets/Rings/BridgeWardensCrest/Ring_BridgeWardensCrest",
-          "notes": "Get to the top of the bridge without killing any fae, then speak to feastmaster elite."
+          "notes": "Поднимитесь на мост, не убивая фей, затем поговорите с элитным распорядителем пира."
         },
         {
           "name": "/Items/Weapons/Melee/Special/AbyssalHook/Weapon_AbyssalHook",
-          "notes": "It can be found in one of the rooms of the sewer-like area, in the manticore lair."
+          "notes": "В одной из комнат канализации, в логове мантикоры."
         },
         {
           "name": "/Items/Trinkets/Rings/ElevatedRing/Ring_ElevatedRing",
-          "notes": "Forlorn Coast- Mournful Promenade, Use the Elevator at top to get there."
+          "notes": "На Покинутом берегу, на Скорбной набережной: воспользуйтесь лифтом наверху."
         },
         {
           "name": "/Items/Archetypes/Ritualist/Archetype_Ritualist",
@@ -1626,23 +1626,23 @@
       "Leywise": [
         {
           "name": "/Items/Trinkets/Rings/AtonementFold/Ring_AtonementFold",
-          "notes": "Purchase from Leywise."
+          "notes": "Купите у Лейвайза."
         },
         {
           "name": "/Items/Trinkets/Rings/WhiteGlassBead/Ring_WhiteGlassBead",
-          "notes": "Bring the feastmaster leftovers to Leywise."
+          "notes": "Принесите Лейвайзу остатки пира распорядителя."
         },
         {
           "name": "/Items/Trinkets/Amulets/IndexOfTheScribe/Amulet_IndexOfTheScribe",
-          "notes": "Bring the Scribes Tome back to Leywise, do NOT open the tome."
+          "notes": "Верните Лейвайзу книгу писца, не открывая её."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheSciolist/Ring_BurdenOfTheSciolist",
-          "notes": "Open the Scribes Tome and give the medallion to Leywise immediately"
+          "notes": "Откройте книгу писца и сразу отдайте медальон Лейвайзу."
         },
         {
           "name": "/Items/Trinkets/Rings/RingOfInfiniteDamage/Ring_RingOfInfiniteDamage",
-          "notes": "Open the Scribes Tome and reject the first time Leywise asks, then give the medallion to Leywise the second time he asks."
+          "notes": "Откройте книгу писца. Откажитесь отдавать медальон при первой просьбе Лейвайза и отдайте при второй."
         }
       ],
       "CoastPig": [
@@ -1653,15 +1653,15 @@
       "Preacher": [
         {
           "name": "/Items/Gems/Ranged/Dreadful/MetaGem_Dreadful",
-          "notes": "Dropped by Dire Fiend"
+          "notes": "Выпадает из Ужасного изверга."
         },
         {
           "name": "/Items/Trinkets/Rings/BandOfTheFanatic/Ring_BandOfTheFanatic",
-          "notes": "Wear full Zealot armor, then speak to Preacher after his speech."
+          "notes": "Наденьте полный комплект Фанатика и поговорите с Проповедником после его речи."
         },
         {
           "name": "/Items/Armor/TopHat/Armor_Head_TopHat",
-          "notes": "Shoot the hat off the Preachers head",
+          "notes": "Сбейте шляпу с головы Проповедника выстрелом.",
           "armorSet": false
         }
       ],
@@ -1673,50 +1673,50 @@
       "OneTrueKingStory": [
         {
           "name": "/Items/Armor/RedPrinceArmor/Armor_Head_CrimsonGuard",
-          "notes": "Kill the one true king, give the red prince 3 coins, then return to the palace."
+          "notes": "Убейте Единственного истинного короля, отдайте Красному принцу три монеты и вернитесь во дворец."
         },
         {
           "name": "/Items/Armor/RedPrinceArmor/Armor_Body_CrimsonGuard",
-          "notes": "Kill the one true king, give the red prince 3 coins, then return to the palace."
+          "notes": "Убейте Единственного истинного короля, отдайте Красному принцу три монеты и вернитесь во дворец."
         },
         {
           "name": "/Items/Armor/RedPrinceArmor/Armor_Legs_CrimsonGuard",
-          "notes": "Kill the one true king, give the red prince 3 coins, then return to the palace."
+          "notes": "Убейте Единственного истинного короля, отдайте Красному принцу три монеты и вернитесь во дворец."
         },
         {
           "name": "/Items/Armor/RedPrinceArmor/Armor_Gloves_CrimsonGuard",
-          "notes": "Kill The One True King, give the red prince 3 coins, then return to the palace."
+          "notes": "Убейте Единственного истинного короля, отдайте Красному принцу три монеты и вернитесь во дворец."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheDeparted/Ring_BurdenOfTheDeparted",
-          "notes": "Defeat The One True King while having Burden of the Divine equipped."
+          "notes": "Победите Единственного истинного короля с надетым Бременем божественного."
         },
         {
           "name": "/Items/Relics/PaperHeart/Relic_Consumable_PaperHeart",
-          "notes": "Find the scribes book and get the medallion out of it, then open the door in the palace."
+          "notes": "Найдите книгу писца, извлеките медальон и откройте им дверь во дворце."
         },
         {
           "name": "/Items/Trinkets/Amulets/Cost_Of_Betrayal/Amulet_CostOfBetrayal",
-          "notes": "Shoot one of the dead council members bodies."
+          "notes": "Выстрелите в тело одного из мёртвых членов совета."
         },
         {
           "name": "/Items/Weapons/Melee/Special/Wrathbringer/Weapon_Wrathbringer",
-          "notes": "The One True King Alt kill reward"
+          "notes": "Награда за альтернативное убийство Единственного истинного короля."
         },
         {
           "name": "/Items/Weapons/Monarch/Blueprints/Weapon_Monarch"
         },
         {
           "name": "/Items/Trinkets/Amulets/GiftOfTheUnbound/Amulet_GiftOfTheUnbound",
-          "notes": "Agree to kill Nimue, but then kill The One True King instead and return to Nimue."
+          "notes": "Согласитесь убить Нимуэ, но вместо этого убейте Единственного истинного короля и вернитесь к Нимуэ."
         },
         {
           "name": "/Items/Relics/BrokenHeart/Relic_Consumable_BrokenHeart",
-          "notes": "Kill Nimue."
+          "notes": "Убейте Нимуэ."
         },
         {
           "name": "/Items/Trinkets/Rings/JewelOfTheBeholden/Ring_JewelOfTheBeholden",
-          "notes": "Kill The One True King, then speak to Nimue"
+          "notes": "Убейте Единственного истинного короля, затем поговорите с Нимуэ."
         },
         {
           "name": "/Items/Trinkets/Amulets/InsipidTalon/Amulet_InsipidTalon"
@@ -1757,7 +1757,7 @@
       "Ring_ThalosEyelet": [
         {
           "name": "/Items/Trinkets/Rings/ThalosEyelet/Ring_ThalosEyelet",
-          "notes": "On a skeleton."
+          "notes": "На скелете."
         }
       ],
       "Ring_SoulFeast": [
@@ -1813,7 +1813,7 @@
       "RootMadness": [
         {
           "name": "/Items/Trinkets/Amulets/ProfaneSoulStone/Amulet_ProfaneSoulStone",
-          "notes": "Submit to The Emissary."
+          "notes": "Подчинитесь Эмиссару."
         },
         {
           "name": "/Items/Trinkets/Rings/ConjurersCircle/Ring_ConjurersCircle"
@@ -1823,82 +1823,82 @@
         },
         {
           "name": "/Items/Gems/Ranged/NearSighted/MetaGem_NearSighted",
-          "notes": "Fight The Emissary"
+          "notes": "Сразитесь с Эмиссаром."
         }
       ],
       "LuminousValeStory": [
         {
           "name": "/Items/Trinkets/Rings/RallyBand/Ring_RallyBand",
-          "notes": "Given by Private Jackson Driver"
+          "notes": "Выдаёт рядовой Джек Драйвер."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheMason/Ring_BurdenOfTheMason",
-          "notes": "Secret Passage within an elevator"
+          "notes": "В тайном проходе внутри лифта."
         },
         {
           "name": "/Items/Trinkets/Rings/ThalosEyelet/Ring_ThalosEyelet",
-          "notes": "On a skeleton."
+          "notes": "На скелете."
         },
         {
           "name": "/Items/Trinkets/Amulets/WornDogTags/Amulet_WornDogTags",
-          "notes": "Return to Private Jack Driver after deciding Lydusa's fate."
+          "notes": "Вернитесь к рядовому Джеку Драйверу после решения судьбы Лидусы."
         },
         {
           "name": "/Items/Gems/Ranged/FarSighted/MetaGem_FarSighted",
-          "notes": "Defeat the Stonewing Lurker aberration"
+          "notes": "Победите аберрацию Каменнокрылый скрытень."
         }
       ],
       "AncientCanopyStory": [
         {
           "name": "/Quests/Quest_Story_DLC2/LoreItem_BP/Pan_Interactive_Note_Walt1",
-          "notes": "Give to Dwell to receive Echo of the Forest",
+          "notes": "Отдайте Двеллу, чтобы получить Эхо леса.",
           "ignore": true
         },
         {
           "name": "/Quests/Quest_Story_DLC2/LoreItem_BP/Pan_Interactive_Note_Walt2",
-          "notes": "Give to Dwell to receive Echo of the Forest",
+          "notes": "Отдайте Двеллу, чтобы получить Эхо леса.",
           "ignore": true
         },
         {
           "name": "/Quests/Quest_Story_DLC2/LoreItem_BP/Pan_Interactive_Note_Walt3",
-          "notes": "Give to Dwell to receive Echo of the Forest",
+          "notes": "Отдайте Двеллу, чтобы получить Эхо леса.",
           "ignore": true
         },
         {
           "name": "/Items/Trinkets/Amulets/EchoOfTheForest/Amulet_EchoOfTheForest",
-          "notes": "Given by Dwell in Ward13 after providing him 3 pieces of Trinity Memento"
+          "notes": "Награда Двелла в Блоке 13 за три части памятного предмета Троицы."
         },
         {
           "name": "/Items/Trinkets/Amulets/StoneshapersChisel/Amulet_StoneshapersChisel",
-          "notes": "Interact with Uuqul when cursed with Touch of Lydusa."
+          "notes": "Поговорите с Уукулом под проклятием «Прикосновение Лидусы»."
         },
         {
           "name": "/Items/Archetypes/Invoker/Armor/Armor_Head_Invoker",
-          "notes": "Inside a tunnel in lower Ancient Canopy"
+          "notes": "В туннеле в нижней части Древней кроны."
         },
         {
           "name": "/Items/Archetypes/Invoker/Armor/Armor_Body_Invoker",
-          "notes": "Inside a tunnel in lower Ancient Canopy"
+          "notes": "В туннеле в нижней части Древней кроны."
         },
         {
           "name": "/Items/Archetypes/Invoker/Armor/Armor_Gloves_Invoker",
-          "notes": "Inside a tunnel in lower Ancient Canopy"
+          "notes": "В туннеле в нижней части Древней кроны."
         },
         {
           "name": "/Items/Archetypes/Invoker/Armor/Armor_Legs_Invoker",
-          "notes": "Inside a tunnel in lower Ancient Canopy"
+          "notes": "В туннеле в нижней части Древней кроны."
         },
         {
           "name": "/Items/Weapons/Thorn/Weapon_Thorn",
-          "notes": "Climbing towards the Kuri Kuri nest, DO NOT grab the egg after the bird leaves. Return later when you hear the bird."
+          "notes": "При подъёме к гнезду кури-кури не берите яйцо после ухода птицы. Вернитесь позже, когда услышите её."
         },
         {
           "name": "/Items/Weapons/TrinityCrossbow/Weapon_TrinityCrossbow",
-          "notes": "Found in a hidden chamber after collecting all three Trinity Mementos."
+          "notes": "В тайной комнате после сбора всех трёх памятных предметов Троицы."
         },
         {
           "name": "/Items/Gems/Ranged/PressurePoint/MetaGem_PressurePoint",
-          "notes": "Defeat the Charred Sentry aberration."
+          "notes": "Победите аберрацию Обугленный часовой."
         },
         {
           "name": "/Items/Archetypes/Invoker/Engram/Engram_Invoker",
@@ -1908,17 +1908,17 @@
       "Kiln": [
         {
           "name": "/Items/Mods/Heatwave/Mod_Heatwave",
-          "notes": "Defeat Cinderclad Monolith"
+          "notes": "Победите Монолит пепельной брони."
         }
       ],
       "LydusaTemple": [
         {
           "name": "/Items/Trinkets/Rings/BloodlessKingsVow/Ring_BloodlessKingsVow",
-          "notes": "Acquired by defeating The Bloodless Heir aberration inside Lydusa's Temple"
+          "notes": "Победите аберрацию Бескровный наследник в храме Лидусы."
         },
         {
           "name": "/Items/Armor/BloodlessCrown/Armor_Head_BloodlessCrown",
-          "notes": "After opening the door that requires five braziers, at the Altar by the offering vessel.",
+          "notes": "После открытия двери с пятью жаровнями: у алтаря рядом с сосудом для подношений.",
           "armorSet": false
         },
         {
@@ -1929,7 +1929,7 @@
         },
         {
           "name": "/Items/Weapons/Flail_Mirage/Weapon_Mirage",
-          "notes": "Light all 5 braziers in Goddess's Rest to open the locked door and offer Cherished Fracture on the shrine."
+          "notes": "Зажгите все пять жаровен в Покое богини и поднесите заветный осколок у святилища."
         }
       ],
       "TombRaid": [
@@ -1947,11 +1947,11 @@
         },
         {
           "name": "/Items/Trinkets/Rings/FloodlitDiamond/Ring_FloodlitDiamond",
-          "notes": "Proving Grounds Dungeon"
+          "notes": "В подземелье Испытательный полигон."
         },
         {
           "name": "/Items/Trinkets/Rings/DarkSeaArmadaCrest/Ring_DarkSeaArmadaCrest",
-          "notes": "At the end of the last gauntlet (4th checkpoint)"
+          "notes": "В конце последнего испытания, у четвёртой контрольной точки."
         },
         {
           "name": "/Items/Gems/Melee/Gladiator/MetaGem_Gladiator"
@@ -1963,21 +1963,21 @@
       "Ziggurat_DLC": [
         {
           "name": "/Items/Trinkets/Amulets/MoonStone/Amulet_MoonStone",
-          "notes": "In the Moon Puzzle Room"
+          "notes": "В комнате лунной головоломки."
         },
         {
           "name": "/Items/Trinkets/Rings/MarkOfTheDestroyer/Ring_MarkOfTheDestroyer",
-          "notes": "In the Moon Puzzle Room"
+          "notes": "В комнате лунной головоломки."
         }
       ],
       "Island_DLC": [
         {
           "name": "/Items/Trinkets/Rings/TokenOfFavor/Ring_TokenOfFavor",
-          "notes": "Can be found at the side of the giant deer statue."
+          "notes": "Рядом с гигантской статуей Лани."
         },
         {
           "name": "/Items/Trinkets/Amulets/CervineKeepsake/Amulet_CervineKeepsake",
-          "notes": "In the Deserted Atelier, when you come to the statue of the doe, put on the Red Doe Sigil."
+          "notes": "В Заброшенной мастерской наденьте печать Красной Лани перед её статуей."
         },
         {
           "name": "/Items/Gems/Ranged/ThousandCuts/MetaGem_ThousandCuts"
@@ -2007,38 +2007,38 @@
         },
         {
           "name": "/Items/Trinkets/Rings/FeatheryBinding/Ring_FeatheryBinding",
-          "notes": "Given by Walt after Lydusa has been defeated."
+          "notes": "Награда Вальта после победы над Лидусой."
         }
       ],
       "DLC2Story": [
         {
           "name": "/Items/Trinkets/Amulets/SoulStone/Amulet_SoulStone",
-          "notes": "Cleanse the Profane Soul Stone at The Keeper within the Labyrinth"
+          "notes": "Очистите осквернённый камень души у Хранителя Лабиринта."
         },
         {
           "name": "/Items/Relics/ProfaneHeart/Relic_Consumable_ProfaneHeart",
-          "notes": "Refuse to cleanse the Profane Soul Stone at The Keeper within the Labyrinth"
+          "notes": "Откажитесь очищать осквернённый камень души у Хранителя Лабиринта."
         },
         {
           "name": "/Items/Trinkets/Rings/TearOfLydusa/Ring_TearOfLydusa",
-          "notes": "In the area where you fought Lydusa, return after the fight to find the ring."
+          "notes": "Вернитесь на арену Лидусы после боя."
         },
         {
           "name": "/Items/Armor/MudtoothsHat/Armor_Head_MudtoothsHat",
-          "notes": "Talk to Mudtooth after completing the Forgotten Kingdom storyline.",
+          "notes": "Поговорите с Грязным Зубом после завершения сюжета «Забытое королевство».",
           "armorSet": false
         },
         {
           "name": "/Items/Weapons/Monolith/Weapon_Monolith",
-          "notes": "Defeat Lydusa while her face is blue."
+          "notes": "Победите Лидусу, пока её лицо синее."
         },
         {
           "name": "/Items/Weapons/Polygun/Weapon_Polygun",
-          "notes": "Found on an altar hidden in the Labyrinth."
+          "notes": "На тайном алтаре в Лабиринте."
         },
         {
           "name": "/Items/Traits/Resolute/Trait_Resolute",
-          "notes": "Destroy fifteen Traveler statues (appear when you die with Lydusa's Curse)"
+          "notes": "Уничтожьте пятнадцать статуй Путника, появляющихся после смерти с проклятием Лидусы."
         }
       ]
     },
@@ -2406,43 +2406,43 @@
       "Ward13": [
         {
           "name": "/Items/Trinkets/Rings/TarnishedRing/Ring_TarnishedRing",
-          "notes": "Rewarded by speaking with Earl at Ward 13 and listening to his rabbit story. He can either be found sleeping in bed, or hanging on the walk way above the merchant Whispers. He will not speak to you while he sleeps, and while away, he may be resistant at first to telling you his story."
+          "notes": "Выслушайте историю Эрла о кролике в Блоке 13. Он бывает в кровати или на мостике над Шёпотом. Во сне он не разговаривает, а на мостике может согласиться рассказать историю не сразу."
         },
         {
           "name": "/Items/Materials/Engrams/Item_HiddenContainer_Material_Engram_Medic",
-          "notes": "buy Medic Pin from Norah"
+          "notes": "Купите значок медика у Норы."
         },
         {
           "name": "/Items/Weapons/LongGuns/Standard/TommyGun/Weapon_TommyGun",
-          "notes": "cargo ship portal"
+          "notes": "Через портал грузового корабля."
         },
         {
           "name": "/Items/Armor/Leto2/Armor_Head_Leto2",
-          "notes": "cargo ship portal"
+          "notes": "Через портал грузового корабля."
         },
         {
           "name": "/Items/Armor/Leto2/Armor_Body_Leto2",
-          "notes": "cargo ship portal"
+          "notes": "Через портал грузового корабля."
         },
         {
           "name": "/Items/Armor/Leto2/Armor_Gloves_Leto2",
-          "notes": "cargo ship portal"
+          "notes": "Через портал грузового корабля."
         },
         {
           "name": "/Items/Armor/Leto2/Armor_Legs_Leto2",
-          "notes": "cargo ship portal"
+          "notes": "Через портал грузового корабля."
         },
         {
           "name": "/Items/Weapons/HandGuns/Standard/SMG/Weapon_SMG",
-          "notes": "cargo ship"
+          "notes": "На грузовом корабле."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/RipenedHeart/Relic_Consumable_RipenedHeart",
-          "notes": "Rewarded by the Thaen Fruit Tree event in Ward 13, after planting the Thaen Seed quest item in the ground of the garden in Ward 13. The Thaen Seed can be Rewarded by interacting with the Ornate Lock Box quest item, and inserting the Ornate Key quest item. Both of which can be found in the Widow's Court location on Yaesha. The player must grow and collect the Celestial Thaen Fruit consumable, a total of 3 times, before the Ripened Heart can be grown. Each fruit takes a set amount of real world hours to grow."
+          "notes": "Посадите семя таэна в саду Блока 13. Семя извлекается украшенным ключом из украшенного ларца; оба предмета находятся во Дворе вдовы на Яэше. Трижды вырастите и соберите небесный плод таэна, после чего можно вырастить созревшее сердце. Рост каждого плода занимает несколько часов реального времени."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/LifelessHeart/Relic_Consumable_LifelessHeart",
-          "notes": "eat fruit of death 3 times"
+          "notes": "Трижды съешьте плод смерти."
         },
         {
           "name": "/Items/Trinkets/Amulets/CessationBulbel/Amulet_CessationBulbel"
@@ -2451,25 +2451,25 @@
       "Mudtooth": [
         {
           "name": "/Items/Materials/Engrams/Item_HiddenContainer_Material_Engram_Gunslinger",
-          "notes": "Crafted by Wallace at Ward 13. Requires the Worn Cylinder item, purchased from Mudtooth at Ward 13. Available for purchase after exhausting his second set of stories."
+          "notes": "Создаётся у Уоллеса в Блоке 13 из изношенного барабана. Купите его у Грязного Зуба, выслушав второй набор историй."
         },
         {
           "name": "/Items/Trinkets/Amulets/GunslingersCharm/Amulet_GunslingersCharm",
-          "notes": "Rewarded by speaking with Mudtooth at Ward 13, and exhausting his second set of stories, in the campaign mode. The second set of stories is available to the player after completing their second biome in the campaign."
+          "notes": "Выслушайте второй набор историй Грязного Зуба в Блоке 13. Он доступен после прохождения второго биома кампании."
         },
         {
           "name": "/Items/Trinkets/Rings/GunslingersRing/Ring_GunslingersRing",
-          "notes": "Rewarded by speaking with Mudtooth at Ward 13, and exhausting his first set of stories, in the campaign mode."
+          "notes": "Выслушайте первый набор историй Грязного Зуба в Блоке 13 в режиме кампании."
         },
         {
           "name": "/Items/Materials/Engrams/Item_HiddenContainer_Material_Engram_Handler",
-          "notes": "Crafted by Wallace at Ward 13. Requires the Old Whistle item, purchased from Mudtooth at Ward 13."
+          "notes": "Создаётся у Уоллеса в Блоке 13. Нужен предмет «старый свисток», купленный у Грязного Зуба."
         }
       ],
       "Brabus": [
         {
           "name": "/Items/Materials/Engrams/Item_HiddenContainer_Material_Engram_Hunter",
-          "notes": "Crafted by Wallace at Ward 13. Requires the Rusty Medal item, purchased from Brabus at Ward 13."
+          "notes": "Создаётся у Уоллеса в Блоке 13. Нужен предмет «ржавая медаль», купленный у Брабуса."
         },
         {
           "name": "/Items/Weapons/Handguns/Standard/HuntingPistol/Weapon_HuntingPistol"
@@ -2559,7 +2559,7 @@
       "Reggie": [
         {
           "name": "/Items/Materials/Engrams/Item_HiddenContainer_Material_Engram_Challenger",
-          "notes": "Crafted by Wallace at Ward 13. Requires the Old Metal Tool item, purchased from Reggie at Ward 13."
+          "notes": "Создаётся у Уоллеса в Блоке 13. Нужен предмет «старый металлический инструмент», купленный у Реджинальда."
         },
         {
           "name": "/Items/Trinkets/Rings/01_Graveyard/RingOfTheAdmiral/Ring_RingOfTheAdmiral"
@@ -2575,36 +2575,36 @@
         },
         {
           "name": "/Items/Trinkets/Amulets/ButchersFetish/Amulet_ButchersFetish",
-          "notes": "Purchased from Reggie at Ward 13 after completing the campaign on Veteran difficulty."
+          "notes": "Купите у Реджинальда в Блоке 13 после прохождения кампании на сложности «Ветеран»."
         },
         {
           "name": "/Items/Trinkets/Amulets/LetosAmulet/Amulet_LetosAmulet",
-          "notes": "Purchased from Reggie at Ward 13 after performing a failed roll 100 times, while wearing the Leto Mark II armor set."
+          "notes": "Купите у Реджинальда в Блоке 13 после ста неудачных перекатов в комплекте брони Лето, модель II."
         },
         {
           "name": "/Items/Trinkets/Rings/BlackCatBand/Ring_BlackCatBand",
-          "notes": "Purchased from Reggie at Ward 13 after dying 15 times."
+          "notes": "Купите у Реджинальда в Блоке 13 после пятнадцати смертей."
         },
         {
           "name": "/Items/Trinkets/Rings/BandOfAccord/Ring_BandOfAccord",
-          "notes": "Purchased from Reggie at Ward 13 after performing the High Five emote in co-op.",
+          "notes": "Купите у Реджинальда в Блоке 13 после жеста «Дай пять» в совместной игре.",
           "coop": true
         },
         {
           "name": "/Items/Trinkets/Amulets/OnyxPendulum/Amulet_OnyxPendulum",
-          "notes": "Purchased from Reggie at Ward 13 after completing the campaign on Nightmare difficulty."
+          "notes": "Купите у Реджинальда в Блоке 13 после прохождения кампании на сложности «Кошмар»."
         },
         {
           "name": "/Items/Trinkets/Amulets/NightmareSpiral/Amulet_NightmareSpiral",
-          "notes": "Purchased from Reggie at Ward 13 after defeating all bosses at least once."
+          "notes": "Купите у Реджинальда в Блоке 13 после победы над каждым боссом хотя бы один раз."
         },
         {
           "name": "/Items/Trinkets/Rings/BrightSteelRing/Ring_BrightSteelRing",
-          "notes": "Purchased from Reggie at Ward 13 after completing 15 biomes on any difficulty."
+          "notes": "Купите у Реджинальда в Блоке 13 после прохождения пятнадцати биомов на любой сложности."
         },
         {
           "name": "/Items/Trinkets/Rings/DevouringLoop/Ring_DevouringLoop",
-          "notes": "Purchased from Reggie at Ward 13 after completing the campaign on Apocalypse difficulty."
+          "notes": "Купите у Реджинальда в Блоке 13 после прохождения кампании на сложности «Апокалипсис»."
         },
         {
           "name": "/Items/Trinkets/Rings/RingOfPhantomPain/Ring_PhantomPain"
@@ -2613,83 +2613,83 @@
       "Cass": [
         {
           "name": "/Items/Trinkets/Rings/AmberMoonstone/Ring_AmberMoonstone",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/BraidedThorns/Ring_BraidedThorns",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/AkariWarBand/Ring_AkariWarBand",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/CompulsionLoop/Ring_CompulsionLoop",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/RockOfAnguish/Ring_RockOfAnguish",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/DeceiversBand/Ring_DeceiversBand",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/BlessedRing/Ring_BlessedRing",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/RingOfFlawedBeauty/Ring_RingOfFlawedBeauty",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/DeadKingsMemento/Ring_DeadKingsMemento",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/MechanicsCog/Ring_MechanicsCog",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/EnlargedHeart/Relic_Consumable_EnlargedHeart",
-          "notes": "Purchased from Cass at Ward 13 after completing 5 biomes. - Editors Note: Theres debate on whether the actual requirement is 5 biomes completed or 5 biomes unlocked, ie, reaching Root Earth in the campaign. Feel free to open an issue in the github repo if you have strong reason to believe one of these is the correct requirement."
+          "notes": "Купите у Кэсс в Блоке 13 после прохождения пяти биомов. В исходной базе условие спорное: возможно, достаточно открыть пять биомов и добраться до Корневой Земли."
         },
         {
           "name": "/Items/Trinkets/Amulets/BrokenPocketWatch/Amulet_BrokenPocketWatch",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Amulets/AbrasiveWhetstone/Amulet_AbrasiveWhetstone",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Amulets/DecayedMargin/Amulet_DecayedMargin",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Amulets/TwistedIdol/Amulet_TwistedIdol",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheGambler/Ring_BurdenOfTheGambler",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheAudacious/Ring_BurdenOfTheAudacious",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Trinkets/Rings/BurdenOfTheDestroyer/Ring_BurdenOfTheDestroyer",
-          "notes": "Purchased from Cass at Ward 13. Merchant has a random chance to have this item in stock."
+          "notes": "Купите у Кэсс в Блоке 13. Предмет появляется в продаже случайным образом."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/DivertingHeart/Relic_Consumable_DivertingHeart",
-          "notes": "Purchased from Cass at Ward 13 after defeating 30 world bosses on any difficulty."
+          "notes": "Купите у Кэсс в Блоке 13 после победы над 30 мировыми боссами на любой сложности."
         },
         {
           "name": "/Items/Armor/Base/RelicTesting/ConstrainedHeart/Relic_Consumable_ConstrainedHeart",
-          "notes": "Purchased from Cass at Ward 13 after defeating 12 world bosses on any difficulty."
+          "notes": "Купите у Кэсс в Блоке 13 после победы над 12 мировыми боссами на любой сложности."
         }
       ],
       "Whispers": [
@@ -2943,58 +2943,58 @@
         },
         {
           "name": "/Items/Archetypes/Invoker/PerksAndTraits/Trait_Gifted",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Invoker archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Invoker» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Affliction/Trait_Affliction",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Ritualist archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Ритуалист» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/AmmoReserves/Trait_AmmoReserves",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Gunslinger archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Стрелок» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Amplitude/Trait_Amplitude"
         },
         {
           "name": "/Items/Traits/Archetype/FlashCaster/Trait_FlashCaster",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Archon archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Архонт» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Fortify/Trait_Fortify",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Engineer archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Инженер» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Kinship/Trait_Kinship",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Handler archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Кинолог» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Longshot/Trait_Longshot",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Hunter archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Охотник» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Potency/Trait_Potency",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Alchemist archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Алхимик» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Regrowth/Trait_Regrowth",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Regrowth archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Призыватель» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/StrongBack/Trait_StrongBack",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Challenger archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Боец» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Swiftness/Trait_Swiftness",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Explorer archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Исследователь» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Triage/Trait_Triage",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Medic archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Медик» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Archetype/Untouchable/Trait_Untouchable",
-          "notes": "Unlocked automatically for all archetypes after leveling up the Invader archetype to 10."
+          "notes": "Становится доступно всем архетипам после развития архетипа «Захватчик» до 10-го уровня."
         },
         {
           "name": "/Items/Traits/Core/Vigor/Trait_Vigor"
@@ -3010,118 +3010,118 @@
         },
         {
           "name": "/Items/Traits/Core/Revivalist/Trait_Revivalist",
-          "notes": "Unlocked automatically after reviving a teammate 15 times.",
+          "notes": "Открывается после пятнадцати воскрешений союзника.",
           "coop": true
         },
         {
           "name": "/Items/Traits/Core/Scholar/Trait_Scholar",
-          "notes": "Unlocked automatically after defeating the Annihilation Boss on any difficulty."
+          "notes": "Открывается после победы над Аннигиляцией на любой сложности."
         },
         {
           "name": "/Items/Trinkets/Rings/PanMageSigil/Ring_PanMageSigil",
-          "notes": "Purchased from Reggie at Ward 13 after defeating a Yaesha World Boss on any difficulty in the Hardcore mode.",
+          "notes": "Купите у Реджинальда в Блоке 13 после победы над мировым боссом Яэши на любой сложности в героическом режиме.",
           "mode": "Hardcore"
         },
         {
           "name": "/Items/Trinkets/Rings/DranScavengerSigil/Ring_DranScavengerSigil",
-          "notes": "Purchased from Reggie at Ward 13 after defeating a Losomn World Boss on any difficulty in the Hardcore mode.",
+          "notes": "Купите у Реджинальда в Блоке 13 после победы над мировым боссом Лосомна на любой сложности в героическом режиме.",
           "mode": "Hardcore"
         },
         {
           "name": "/Items/Trinkets/Rings/DrzyrSniperSigil/Ring_DrzyrSniperSigil",
-          "notes": "Purchased from Reggie at Ward 13 after defeating a N'Erud World Boss on any difficulty in the Hardcore mode.",
+          "notes": "Купите у Реджинальда в Блоке 13 после победы над мировым боссом Н'Эруда на любой сложности в героическом режиме.",
           "mode": "Hardcore"
         },
         {
           "name": "/Items/Trinkets/Rings/02_OnHold/ProvisionerRing/Ring_ProvisionerRing",
-          "notes": "Purchased from Reggie at Ward 13 after defeating the Labyrinth Sentinel on any difficulty in the Hardcore mode.",
+          "notes": "Купите у Реджинальда в Блоке 13 после победы над Стражем Лабиринта на любой сложности в героическом режиме.",
           "mode": "Hardcore"
         },
         {
           "name": "/Items/Trinkets/Amulets/DaredevilsCharm/Amulet_DaredevilsCharm",
-          "notes": "Purchased from Reggie at Ward 13 after completing the campaign on any difficulty in the Hardcore mode.",
+          "notes": "Купите у Реджинальда в Блоке 13 после прохождения кампании на сложности «любой» в героическом режиме.",
           "mode": "Hardcore"
         },
         {
           "name": "/Items/Weapons/Longguns/Special/Sporebloom/Weapon_Sporebloom",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Veteran difficulty."
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Ветеран»."
         },
         {
           "name": "/Items/Weapons/Longguns/Special/Starkiller/Weapon_Starkiller",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Apocalypse difficulty."
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Апокалипсис»."
         },
         {
           "name": "/Items/Weapons/Longguns/Special/Savior/Weapon_Savior",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Veteran difficulty in the Hardcore mode.",
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Ветеран» в героическом режиме.",
           "mode": "Hardcore"
         },
         {
           "name": "/Items/Weapons/Melee/Special/HerosSword/Weapon_HerosSword",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Nightmare difficulty."
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Кошмар»."
         },
         {
           "name": "/Items/Weapons/Longguns/Special/Repulsor/Weapon_Repulsor",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Nightmare difficulty."
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Кошмар»."
         },
         {
           "name": "/Items/Weapons/Melee/Special/Smolder/Weapon_Smolder",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Veteran difficulty."
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Ветеран»."
         },
         {
           "name": "/Items/Weapons/Melee/Special/WorldsEdge/Weapon_WorldsEdge",
-          "notes": "Purchased from Brabus at Ward 13 after completing the campaign on Apocalypse difficulty."
+          "notes": "Купите у Брабуса в Блоке 13 после прохождения кампании на сложности «Апокалипсис»."
         },
         {
           "name": "/Items/Trinkets/Amulets/ParticipationMedal/Amulet_ParticipationMedal",
-          "notes": "Die to a boss 10 times on Apocalypse difficulty."
+          "notes": "Погибните от босса десять раз на сложности «Апокалипсис»."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/BottomFeeder/MetaGem_BottomFeeder",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/BottomHeavy/MetaGem_BottomHeavy",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Melee/MetaGems/Edgelord/MetaGem_Edgelord",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/Ingenuity/MetaGem_Ingenuity",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/KillSwitch/MetaGem_KillSwitch",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Melee/MetaGems/Latency/MetaGem_Latency",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Melee/MetaGems/Opportunist/MetaGem_Opportunist",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/SequencedShot/MetaGem_SequencedShot",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Melee/MetaGems/Shocker/MetaGem_Shocker",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Melee/MetaGems/Stormbringer/MetaGem_Stormbringer",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/TopHeavy/MetaGem_TopHeavy",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         },
         {
           "name": "/Items/Gems/Ranged/MetaGems/SpiritHealer/MetaGem_SpiritHealer",
-          "notes": "Random drop by aberrations"
+          "notes": "Случайная добыча с аберраций."
         }
       ]
     }

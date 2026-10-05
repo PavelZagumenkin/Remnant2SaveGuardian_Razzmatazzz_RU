@@ -1,4 +1,4 @@
-﻿using RemnantSaveGuardian.locales;
+using RemnantSaveGuardian.locales;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,6 +38,18 @@ namespace RemnantSaveGuardian.Views.Pages
 
             InitializeComponent();
             EventTransfer.Event += ChangeGridVisibility;
+            if (DocumentationCapture.Enabled)
+            {
+                filteredCampaign = DocumentationCapture.Events();
+                filteredAdventure = new();
+                CampaignData.ItemsSource = filteredCampaign;
+                AdventureData.ItemsSource = filteredAdventure;
+                CharacterControl.ItemsSource = new[] { "Охотник, Медик (142) — пример" };
+                CharacterControl.SelectedIndex = 0;
+                FontSizeSlider.Value = Properties.Settings.Default.AnalyzerFontSize;
+                progressRing.Visibility = Visibility.Collapsed;
+                return;
+            }
 
             try
             {
@@ -84,7 +96,7 @@ namespace RemnantSaveGuardian.Views.Pages
                 Task task = new Task(FirstLoad);
                 task.Start();
             } catch (Exception ex) {
-                Logger.Error($"Error initializing analzyer page: {ex}");
+                Logger.Error($"Ошибка загрузки анализатора мира: {ex}");
             }
         }
         private void ChangeGridVisibility(Object sender, EventTransfer.MessageArgs message)
@@ -184,7 +196,7 @@ namespace RemnantSaveGuardian.Views.Pages
                     File.WriteAllText($@"{openFolderDialog.SelectedPath}\{filePath.Substring(filePath.LastIndexOf(@"\")).Replace(".sav", ".txt")}", RemnantSave.DecompressSaveAsString(filePath));
                     File.Copy(filePath, $@"{openFolderDialog.SelectedPath}\{filePath.Substring(filePath.LastIndexOf(@"\"))}", true);
                 }
-                Logger.Success(Loc.T($"Exported save files successfully to {openFolderDialog.SelectedPath}"));
+                Logger.Success($"Сохранения экспортированы в {openFolderDialog.SelectedPath}");
             } catch (Exception ex)
             {
                 Logger.Error(Loc.T("Error exporting save files: {errorMessage}", new() { { "errorMessage", ex.Message } }));
@@ -328,8 +340,10 @@ namespace RemnantSaveGuardian.Views.Pages
 
         private static string[] ModeTags = { "treeMissingNormal", "treeMissingHardcore", "treeMissingSurvival" };
         List<TreeListClass> itemModeNode = new List<TreeListClass>();
+        
         private void CharacterControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (DocumentationCapture.Enabled) return;
             //if (CharacterControl.SelectedIndex == -1 && listCharacters.Count > 0) return;
             if (CharacterControl.Items.Count > 0 && CharacterControl.SelectedIndex > -1)
             {
@@ -364,7 +378,7 @@ namespace RemnantSaveGuardian.Views.Pages
                         {
                             isExpanded = (bool)Properties.Settings.Default[$"{typeNodeTag}_Expanded"];
                         } catch (Exception ex) {
-                            Logger.Warn($"Not found properties: {typeNodeTag}_Expand");
+                            Logger.Warn($"Не найдены параметры: {typeNodeTag}_Expand");
                         }
                         TreeListClass item = new TreeListClass() { Name = rItem.Type, Childnode = itemChild[idx], Tag = typeNodeTag, IsExpanded = isExpanded };
                         item.Expanded += GameType_CollapsedExpanded;

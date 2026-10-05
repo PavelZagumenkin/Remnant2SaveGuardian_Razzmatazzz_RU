@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -86,25 +86,29 @@ namespace RemnantSaveGuardian
         /// </summary>
         private async void OnStartup(object sender, StartupEventArgs e)
         {
-            var culture = CultureInfo.GetCultureInfo(GetUserDefaultUILanguage());
+            if (DocumentationCapture.IsRequested(e.Args))
+                DocumentationCapture.Configure(e.Args);
+
             var cultures = EnumerateSupportedCultures();
+            var culture = cultures.FirstOrDefault(c => c.Name == Settings.Default.Language)
+                ?? CultureInfo.GetCultureInfo("ru");
             Current.Properties["langs"] = cultures;
             if (!cultures.Contains(culture) && cultures.Contains(culture.Parent))
             {
                 culture = culture.Parent;
             }
-            if (Settings.Default.Language != "")
-            {
-                culture = cultures.First(e => e.Name == Settings.Default.Language);
-            }
-
             Thread.CurrentThread.CurrentCulture = culture;
+            Thread.CurrentThread.CurrentUICulture = culture;
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentUICulture = culture;
             WPFLocalizeExtension.Engine.LocalizeDictionary.Instance.Culture = culture;
 
             FrameworkElement.LanguageProperty.OverrideMetadata(
                 typeof(FrameworkElement),
                 new FrameworkPropertyMetadata(XmlLanguage.GetLanguage(culture.IetfLanguageTag)));
             await _host.StartAsync();
+            if (DocumentationCapture.Enabled)
+                await DocumentationCapture.RunAsync();
         }
 
         [DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
@@ -114,7 +118,7 @@ namespace RemnantSaveGuardian
         {
             CultureInfo[] culture = CultureInfo.GetCultures(CultureTypes.AllCultures);
 
-            string exeLocation = Path.GetDirectoryName(Uri.UnescapeDataString(new UriBuilder(Assembly.GetExecutingAssembly().CodeBase).Path)) ?? "";
+            string exeLocation = AppContext.BaseDirectory;
 
             var c = culture.Where(cultureInfo => Directory.Exists(Path.Combine(exeLocation, cultureInfo.Name)) && cultureInfo.Name != "")
                 .Prepend(CultureInfo.GetCultureInfo("en"))

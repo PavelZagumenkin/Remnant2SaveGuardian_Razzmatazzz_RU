@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -430,7 +430,7 @@ namespace RemnantSaveGuardian
                 }
                 catch (Exception ex)
                 {
-                    Logger.Error($"Error parsing save event on {textLine}: {ex}");
+                    Logger.Error($"Ошибка разбора события сохранения: {textLine}: {ex}");
                 }
             }
 
@@ -845,7 +845,7 @@ namespace RemnantSaveGuardian
                     }
                     catch (Exception ex)
                     {
-                        Logger.Error($"Error parsing save event on {areaText}: {ex}");
+                        Logger.Error($"Ошибка разбора события сохранения: {areaText}: {ex}");
 
                     }
                 }
@@ -1207,7 +1207,7 @@ namespace RemnantSaveGuardian
                     }
                     catch (Exception ex)
                     {
-                        Logger.Error($"Error parsing save event on {area.Groups["events"].Value}: {ex}");
+                        Logger.Error($"Ошибка разбора события сохранения: {area.Groups["events"].Value}: {ex}");
 
                     }
                 }
@@ -1293,7 +1293,7 @@ namespace RemnantSaveGuardian
                 var world = injectablePair.Key.Groups["world"].Value;
                 if (!zoneEvents.ContainsKey(world))
                 {
-                    //Logger.Warn($"Injectable world {world} not found in {mode} events");
+                    //Logger.Warn($"Дополнительный мир {world} не найден среди событий {mode}");
                     if (world == "World_DLC1")
                         world = "World_Fae";
                     else if (world == "World_DLC2")
@@ -1305,7 +1305,7 @@ namespace RemnantSaveGuardian
                 }
                 if (!zoneEvents.ContainsKey(world))
                 {
-                    Logger.Warn($"Injectable world {world} not found in {mode} events");
+                    Logger.Warn($"Дополнительный мир {world} не найден среди событий {mode}");
                     continue;
                 }
                 if (zoneEvents[world].Any(we => we._name == injectable._name))

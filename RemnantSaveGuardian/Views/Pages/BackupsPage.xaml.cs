@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -72,6 +72,15 @@ namespace RemnantSaveGuardian.Views.Pages
             ViewModel = viewModel;
 
             InitializeComponent();
+            if (DocumentationCapture.Enabled)
+            {
+                dataBackups.CanUserAddRows = false;
+                dataBackups.CanUserDeleteRows = false;
+                dataBackups.IsReadOnly = true;
+                dataBackups.ItemsSource = DocumentationCapture.Backups();
+                progressRing.Visibility = Visibility.Collapsed;
+                return;
+            }
 
             try
             {
@@ -98,7 +107,7 @@ namespace RemnantSaveGuardian.Views.Pages
                 Task task = new Task(loadBackups);
                 task.Start();
             } catch (Exception ex) {
-                Logger.Error($"Error loading backups page: {ex}");
+                Logger.Error($"Ошибка загрузки страницы резервных копий: {ex}");
             }
         }
 
@@ -421,7 +430,7 @@ namespace RemnantSaveGuardian.Views.Pages
                 var activeSave = new RemnantSave(Properties.Settings.Default.SaveFolder);
                 if (!activeSave.Valid)
                 {
-                    Logger.Log("Active save is not valid; backup skipped.");
+                    Logger.Log("Текущее сохранение некорректно; резервная копия не создана.");
                     return;
                 }
                 int existingSaveIndex = -1;

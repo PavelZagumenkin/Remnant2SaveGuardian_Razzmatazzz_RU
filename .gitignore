@@ -363,3 +363,9 @@ MigrationBackup/
 FodyWeavers.xsd
 
 secrets/
+
+# Local release packages and documentation fixtures
+/artifacts/
+docs/images/.demo/
+docs/images/capture-*.txt
+docs/images/localization-audit.json

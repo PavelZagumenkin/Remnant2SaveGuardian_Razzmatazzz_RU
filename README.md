@@ -1,25 +1,71 @@
-# Remnant Save Guardian
-Back up your Remnant 2 saves and view your world rolls.
+# Remnant Save Guardian RU
 
-**This project is a work in progress. Lots of features are broken or partially implemented.**
+Резервное копирование сохранений Remnant II и анализ сгенерированных миров — с русским интерфейсом, названиями предметов, событий и подсказками.
 
-## Installation
-1. Download and install [Microsoft .NET 8.0](https://dotnet.microsoft.com/en-us/download) or greater
-2. Download the [latest release](https://github.com/Razzmatazzz/RemnantSaveGuardian/releases/latest/)
-3. Unzip the latest release to a folder of your choosing (probably not the same folder where you have the game installed)
-4. Run RemnantSaveGuardian.exe
+Русская версия [Remnant Save Guardian](https://github.com/Razzmatazzz/RemnantSaveGuardian), основанная на версии 1.4.2. Сохранены функции и оформление исходного приложения. Русский язык выбран по умолчанию; другие языки можно включить в настройках.
 
-## Screenshots
-![image](https://github.com/Razzmatazzz/RemnantSaveGuardian/assets/35779878/cc428b0b-7573-4128-a2ae-02ef25ebda36)
-![image](https://github.com/Razzmatazzz/RemnantSaveGuardian/assets/35779878/48fc0eae-fc87-47be-bea3-89af08f102a6)
-![image](https://github.com/Razzmatazzz/RemnantSaveGuardian/assets/35779878/45d46b50-f3d2-4341-847e-ae3dd4f6df2c)
+**Анализатор наследует ограничения исходного проекта: некоторые события и предметы могут определяться неточно.**
 
-## Known Issues
-- [Some items are missing from the world analyzer](https://github.com/Razzmatazzz/RemnantSaveGuardian/issues/43)
-- [Many events and items do not have well-formatted names](https://github.com/Razzmatazzz/RemnantSaveGuardian/issues/45)
-- [Some events not displaying or are erroneously displaying](https://github.com/Razzmatazzz/RemnantSaveGuardian/issues/44)
-- [If you are using Norton Antivirus, it may cause weirdness with your game saves and RemnantSaveGuardian](https://github.com/Razzmatazzz/RemnantSaveGuardian/issues/70)
+## Установка
 
-Thanks for [crackedmind](https://github.com/crackedmind) for the inflation code to convert saves into partial plaintext. 
+1. Откройте [последний релиз](https://github.com/PavelZagumenkin/Remnant2SaveManager_Razzmatazzz_RU/releases/latest).
+2. Скачайте архив `RemnantSaveGuardianRU-1.4.3-win-x64.zip`.
+3. Распакуйте **весь архив** в отдельную папку, например `C:\Games\RemnantSaveGuardianRU`.
+4. Запустите `RemnantSaveGuardian.exe`.
+5. Проверьте папки сохранений и резервных копий в разделе **Настройки → Сохранения**.
 
-Thanks to [AuriCrystal](https://github.com/Auricrystal) for event/item list.
+Архив предназначен для 64-разрядной Windows 10/11 и включает .NET 8: отдельная установка среды выполнения не требуется. Сохраняйте все файлы и подпапки архива, в том числе `ru`.
+
+Подробная инструкция: [wiki на русском языке](https://github.com/PavelZagumenkin/Remnant2SaveManager_Razzmatazzz_RU/wiki).
+
+## Возможности
+
+- Ручное и автоматическое резервное копирование сохранений.
+- Восстановление всех данных, только персонажей или только миров.
+- Анализ кампании и приключения, поиск событий и предметов.
+- Список отсутствующих и возможных предметов, включая данные DLC из оригинальной базы.
+- Русские названия и подсказки по получению предметов.
+- Настройки лимита копий, интервала, темы, масштаба и прозрачности.
+- Проверка обновлений программы и игровых данных из этого репозитория.
+
+## Скриншоты
+
+Снимки получены из собранного WPF-интерфейса **русской версии**. Показаны демонстрационные данные, а не сохранения конкретного игрока.
+
+### Резервные копии
+
+![Резервные копии — русский интерфейс](docs/images/backups-ru.png)
+
+### Анализатор мира
+
+![Анализатор мира — русские предметы и события](docs/images/world-analyzer-ru.png)
+
+### Настройки
+
+![Настройки — русский язык по умолчанию](docs/images/settings-ru.png)
+
+## Известные ограничения
+
+- В исходной базе могут отсутствовать отдельные предметы.
+- Некоторые события могут отображаться неверно; расположение добычи иногда приблизительное.
+- Для неизвестных игре программы объектов возможно отображение технических идентификаторов.
+- Антивирус или облачная синхронизация могут мешать работе с файлами сохранений.
+- Экспериментальная прозрачность окна может работать нестабильно.
+
+Перед восстановлением копии закройте игру. Подробности и решение типичных проблем: [Помощь](https://github.com/PavelZagumenkin/Remnant2SaveManager_Razzmatazzz_RU/wiki/Help). Сообщения об ошибках: [Issues](https://github.com/PavelZagumenkin/Remnant2SaveManager_Razzmatazzz_RU/issues).
+
+## Сборка из исходников
+
+Нужны Windows и [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
+
+```powershell
+dotnet restore RemnantSaveGuardian.sln
+pwsh -File scripts/Verify-Localization.ps1
+pwsh -File scripts/Build-Release.ps1
+```
+
+Архив и контрольная сумма создаются в `artifacts`. Инструкция по воспроизводимым скриншотам: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+
+## Лицензия
+
+GNU GPL v3, как у исходного проекта; текст лицензии находится в [LICENSE](LICENSE). Исходная история Git и уведомления об авторских правах сохранены. Изменения русской версии: [CHANGELOG.md](CHANGELOG.md).

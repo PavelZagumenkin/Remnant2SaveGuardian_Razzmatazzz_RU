@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -192,7 +192,7 @@ namespace RemnantSaveGuardian
             }
             catch (Exception ex)
             {
-                Logger.Error($"Error loading world Data in CharacterData.LoadWorldData: {ex.Message} {ex.StackTrace}");
+                Logger.Error($"Ошибка загрузки данных мира в CharacterData.LoadWorldData: {ex.Message} {ex.StackTrace}");
             }
         }
 

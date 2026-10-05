@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -136,7 +136,7 @@ namespace RemnantSaveGuardian
                     List<RemnantItem> eventItems = new List<RemnantItem>();
                     if (kvp.Value == null)
                     {
-                        Logger.Warn($"Event {kvp.Key} has no items");
+                        Logger.Warn($"У события {kvp.Key} нет предметов");
                         continue;
                     }
                     foreach (var item in kvp.Value.AsArray())
@@ -228,7 +228,7 @@ namespace RemnantSaveGuardian
             };
             try
             {
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://raw.githubusercontent.com/Razzmatazzz/RemnantSaveGuardian/main/RemnantSaveGuardian/game.json");
+                var request = new HttpRequestMessage(HttpMethod.Get, $"https://raw.githubusercontent.com/PavelZagumenkin/Remnant2SaveManager_Razzmatazzz_RU/main/RemnantSaveGuardian/game.json");
                 request.Headers.Add("user-agent", "remnant-save-guardian");
                 HttpClient client = new();
                 var response = await client.SendAsync(request);
